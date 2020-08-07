@@ -39,7 +39,7 @@ release = '3.0'
 extensions = [ "breathe" ]
 
 # Breathe Configuration
-breathe_projects = { "imath": "docs/doxygen/xml"
+breathe_projects = { "imath": "docs/doxygen/xml" }
 breathe_default_project = "imath"
 breathe_domain_by_extension = {'h': 'cpp'}
 primary_domain = 'cpp'
