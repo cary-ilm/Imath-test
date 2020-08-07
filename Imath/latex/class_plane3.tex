@@ -1,0 +1,53 @@
+\hypertarget{class_plane3}{}\doxysection{Plane3$<$ T $>$ Class Template Reference}
+\label{class_plane3}\index{Plane3$<$ T $>$@{Plane3$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_plane3_a7204f5dd23948efa80644504a506d90b}\label{class_plane3_a7204f5dd23948efa80644504a506d90b}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Plane3} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&normal, T distance)
+\item 
+\mbox{\Hypertarget{class_plane3_ab7e287c0863b88745de54ac3b4bdf7cc}\label{class_plane3_ab7e287c0863b88745de54ac3b4bdf7cc}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Plane3} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&normal)
+\item 
+\mbox{\Hypertarget{class_plane3_ab08572213f3219be93b7b2f1e35aee60}\label{class_plane3_ab08572213f3219be93b7b2f1e35aee60}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Plane3} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point1, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point2, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point3)
+\item 
+\mbox{\Hypertarget{class_plane3_a1363f9809c98f5eb3e8807e478639bd1}\label{class_plane3_a1363f9809c98f5eb3e8807e478639bd1}} 
+void {\bfseries set} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&normal, T distance)
+\item 
+\mbox{\Hypertarget{class_plane3_a2dc404fa49bc8eb9d3465cf1f816be1f}\label{class_plane3_a2dc404fa49bc8eb9d3465cf1f816be1f}} 
+void {\bfseries set} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&normal)
+\item 
+\mbox{\Hypertarget{class_plane3_a4dccdd7f5ba0f811c5e8e622988e9075}\label{class_plane3_a4dccdd7f5ba0f811c5e8e622988e9075}} 
+void {\bfseries set} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point1, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point2, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&point3)
+\item 
+\mbox{\Hypertarget{class_plane3_ae2581307f81bce22b280345ecf73cde9}\label{class_plane3_ae2581307f81bce22b280345ecf73cde9}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool {\bfseries intersect} (const \mbox{\hyperlink{class_line3}{Line3}}$<$ T $>$ \&line, \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&intersection) const
+\item 
+\mbox{\Hypertarget{class_plane3_ae8ea68ee5647097d5369e3ddb7045596}\label{class_plane3_ae8ea68ee5647097d5369e3ddb7045596}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool {\bfseries intersectT} (const \mbox{\hyperlink{class_line3}{Line3}}$<$ T $>$ \&line, T \&parameter) const
+\item 
+\mbox{\Hypertarget{class_plane3_a20b78d99926904a81b8c608121dcbc43}\label{class_plane3_a20b78d99926904a81b8c608121dcbc43}} 
+constexpr T {\bfseries distance\+To} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&) const
+\item 
+\mbox{\Hypertarget{class_plane3_ad8814077d59094d210f375cdc9a449d0}\label{class_plane3_ad8814077d59094d210f375cdc9a449d0}} 
+constexpr \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries reflect\+Point} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&) const
+\item 
+\mbox{\Hypertarget{class_plane3_adfb0d23903250ee9f446f3b4e6ac8797}\label{class_plane3_adfb0d23903250ee9f446f3b4e6ac8797}} 
+constexpr \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries reflect\+Vector} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_plane3_a99e5314b8b4a360620e176fe6d741883}\label{class_plane3_a99e5314b8b4a360620e176fe6d741883}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries normal}
+\item 
+\mbox{\Hypertarget{class_plane3_a5a18ed67928d964d03f5f19db094bff2}\label{class_plane3_a5a18ed67928d964d03f5f19db094bff2}} 
+T {\bfseries distance}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Imath\+Forward.\+h\item 
+Imath\+Plane.\+h\end{DoxyCompactItemize}

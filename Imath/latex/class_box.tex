@@ -1,0 +1,298 @@
+\hypertarget{class_box}{}\doxysection{Box$<$ T $>$ Class Template Reference}
+\label{class_box}\index{Box$<$ T $>$@{Box$<$ T $>$}}
+
+
+The Box$<$\+T$>$ template represents a bounding box defined by minimum and maximum values of type T.  
+
+
+
+
+{\ttfamily \#include $<$Imath\+Box.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_box_a07d36430c01b460f8e80f7e7245b9030}{Box}} ()
+\begin{DoxyCompactList}\small\item\em Construct an empty bounding box. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_box_a8dc477ed07c78407e0d556c457309eea}{Box}} (const T \&point)
+\begin{DoxyCompactList}\small\item\em Construct a bounding box that contains a single point. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_box_acb3fe700cdd3bd3a2636823bd9fc43e9}{Box}} (const T \&minT, const T \&maxT)
+\begin{DoxyCompactList}\small\item\em Construct a bounding box with the given minimum and maximum values. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{class_box_a972b6e402991e82fb5142f3b6a76c397}{operator==}} (const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&src) const
+\begin{DoxyCompactList}\small\item\em Compare two \mbox{\hyperlink{class_box}{Box}} objects for equality. \end{DoxyCompactList}\item 
+constexpr bool \mbox{\hyperlink{class_box_a0d1a09f459d07e0aafcc27c98248637e}{operator!=}} (const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&src) const
+\begin{DoxyCompactList}\small\item\em Compare two \mbox{\hyperlink{class_box}{Box}} objects for inequality. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_box_aa949b1e2b893eb90c8b7e4ded7973671}{make\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em Set the \mbox{\hyperlink{class_box}{Box}} to be empty. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_box_a3935ddfb3224f6dc138c4dfb24a60634}{extend\+By}} (const T \&point)
+\begin{DoxyCompactList}\small\item\em Extend the \mbox{\hyperlink{class_box}{Box}} to include the given point. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_box_a2d1fc71dc9e6afbc122ca6c99bcef8b1}{extend\+By}} (const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&box)
+\begin{DoxyCompactList}\small\item\em Extend the \mbox{\hyperlink{class_box}{Box}} to include the given box. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_box_a95c9a1b87f1d119e4c4dadba43c4b974}{make\+Infinite}} ()
+\begin{DoxyCompactList}\small\item\em Make the box include the entire range of T. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T \mbox{\hyperlink{class_box_ac3b09c87a9bdf4387556998cc00e7300}{size}} () const
+\begin{DoxyCompactList}\small\item\em Return the size of the box. \end{DoxyCompactList}\item 
+constexpr T \mbox{\hyperlink{class_box_a2ff39fd42a7a9b6c147cf1a155881473}{center}} () const
+\begin{DoxyCompactList}\small\item\em Return the center of the box. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box_af951699b1c2dd64d498bb669dce82d8b}{intersects}} (const T \&point) const
+\begin{DoxyCompactList}\small\item\em Return true if the given point is inside the box, false otherwise. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box_ae6a9297e3bc2aa9719ccdb0c7efe9386}{intersects}} (const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&box) const
+\begin{DoxyCompactList}\small\item\em Return true if the given box is inside the box, false otherwise. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 unsigned int \mbox{\hyperlink{class_box_a26da8cc07d440de6792c8ce3cfd01444}{major\+Axis}} () const
+\begin{DoxyCompactList}\small\item\em Return the major axis of the box. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box_aecb08cf547984426d8fded9c3f4807f5}{is\+Empty}} () const
+\begin{DoxyCompactList}\small\item\em Return true if the box is empty. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box_a5cc90b78dae9eedb605c6d6ed3a6e651}{has\+Volume}} () const
+\begin{DoxyCompactList}\small\item\em Return true if the box is larger than a single point, false otherwise. \end{DoxyCompactList}\item 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box_a21c094cb84a85f96499133b6d40314dc}{is\+Infinite}} () const
+\begin{DoxyCompactList}\small\item\em Return true if the box contains all points, false otherwise. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{class_box_ac767f7eb740b6d74f7bf65af59f58b54}{min}}
+\begin{DoxyCompactList}\small\item\em The minimum value of the box. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_box_a85e2b0eb6223e2d4cccfea94c19b4384}{max}}
+\begin{DoxyCompactList}\small\item\em The maximum value of the box. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Box$<$ T $>$}
+
+The Box$<$\+T$>$ template represents a bounding box defined by minimum and maximum values of type T. 
+
+The min and max members are public.
+
+The type T must implement\+:
+
+1) Arithmetic operator + and -\/ with the signature (T,T) and the expected return values for a numeric type.
+
+2) Comparison operators $<$, $>$, $<$=, $>$= with the signature (T,T) and the expected return values for a numeric type.
+
+3) Assignment operators = with the signature (T,T) and with the signature (T,float and/or double).
+
+4) A constructor which takes a float (and/or double) for use in initializing the box.
+
+5) A function T\+::dimensions() which returns the number of dimensions in the class (since its assumed its a vector) -- preferably, this returns a constant expression. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_box_a07d36430c01b460f8e80f7e7245b9030}\label{class_box_a07d36430c01b460f8e80f7e7245b9030}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!Box@{Box}}
+\index{Box@{Box}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Box()}{Box()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::\mbox{\hyperlink{class_box}{Box}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct an empty bounding box. 
+
+\mbox{\Hypertarget{class_box_a8dc477ed07c78407e0d556c457309eea}\label{class_box_a8dc477ed07c78407e0d556c457309eea}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!Box@{Box}}
+\index{Box@{Box}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Box()}{Box()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::\mbox{\hyperlink{class_box}{Box}} (\begin{DoxyParamCaption}\item[{const T \&}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a bounding box that contains a single point. 
+
+\mbox{\Hypertarget{class_box_acb3fe700cdd3bd3a2636823bd9fc43e9}\label{class_box_acb3fe700cdd3bd3a2636823bd9fc43e9}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!Box@{Box}}
+\index{Box@{Box}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Box()}{Box()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::\mbox{\hyperlink{class_box}{Box}} (\begin{DoxyParamCaption}\item[{const T \&}]{minT,  }\item[{const T \&}]{maxT }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a bounding box with the given minimum and maximum values. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_box_a2ff39fd42a7a9b6c147cf1a155881473}\label{class_box_a2ff39fd42a7a9b6c147cf1a155881473}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!center@{center}}
+\index{center@{center}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{center()}{center()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr T \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::center\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Return the center of the box. 
+
+The center is defined as (max+min)/2. The center of an empty box is undefined. \mbox{\Hypertarget{class_box_a2d1fc71dc9e6afbc122ca6c99bcef8b1}\label{class_box_a2d1fc71dc9e6afbc122ca6c99bcef8b1}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!extendBy@{extendBy}}
+\index{extendBy@{extendBy}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{extendBy()}{extendBy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::extend\+By (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&}]{box }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Extend the \mbox{\hyperlink{class_box}{Box}} to include the given box. 
+
+\mbox{\Hypertarget{class_box_a3935ddfb3224f6dc138c4dfb24a60634}\label{class_box_a3935ddfb3224f6dc138c4dfb24a60634}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!extendBy@{extendBy}}
+\index{extendBy@{extendBy}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{extendBy()}{extendBy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::extend\+By (\begin{DoxyParamCaption}\item[{const T \&}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Extend the \mbox{\hyperlink{class_box}{Box}} to include the given point. 
+
+\mbox{\Hypertarget{class_box_a5cc90b78dae9eedb605c6d6ed3a6e651}\label{class_box_a5cc90b78dae9eedb605c6d6ed3a6e651}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!hasVolume@{hasVolume}}
+\index{hasVolume@{hasVolume}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{hasVolume()}{hasVolume()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::has\+Volume\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return true if the box is larger than a single point, false otherwise. 
+
+\mbox{\Hypertarget{class_box_ae6a9297e3bc2aa9719ccdb0c7efe9386}\label{class_box_ae6a9297e3bc2aa9719ccdb0c7efe9386}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!intersects@{intersects}}
+\index{intersects@{intersects}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{intersects()}{intersects()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::intersects (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&}]{box }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return true if the given box is inside the box, false otherwise. 
+
+\mbox{\Hypertarget{class_box_af951699b1c2dd64d498bb669dce82d8b}\label{class_box_af951699b1c2dd64d498bb669dce82d8b}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!intersects@{intersects}}
+\index{intersects@{intersects}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{intersects()}{intersects()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::intersects (\begin{DoxyParamCaption}\item[{const T \&}]{point }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return true if the given point is inside the box, false otherwise. 
+
+\mbox{\Hypertarget{class_box_aecb08cf547984426d8fded9c3f4807f5}\label{class_box_aecb08cf547984426d8fded9c3f4807f5}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::is\+Empty\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return true if the box is empty. 
+
+An empty box\textquotesingle{}s minimum is greater than its maximum. \mbox{\Hypertarget{class_box_a21c094cb84a85f96499133b6d40314dc}\label{class_box_a21c094cb84a85f96499133b6d40314dc}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!isInfinite@{isInfinite}}
+\index{isInfinite@{isInfinite}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{isInfinite()}{isInfinite()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::is\+Infinite\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return true if the box contains all points, false otherwise. 
+
+\mbox{\Hypertarget{class_box_a26da8cc07d440de6792c8ce3cfd01444}\label{class_box_a26da8cc07d440de6792c8ce3cfd01444}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!majorAxis@{majorAxis}}
+\index{majorAxis@{majorAxis}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{majorAxis()}{majorAxis()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 unsigned int \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::major\+Axis\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the major axis of the box. 
+
+The major axis is axis of greatest dimension. \mbox{\Hypertarget{class_box_aa949b1e2b893eb90c8b7e4ded7973671}\label{class_box_aa949b1e2b893eb90c8b7e4ded7973671}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!makeEmpty@{makeEmpty}}
+\index{makeEmpty@{makeEmpty}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{makeEmpty()}{makeEmpty()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::make\+Empty\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the \mbox{\hyperlink{class_box}{Box}} to be empty. 
+
+A \mbox{\hyperlink{class_box}{Box}} is empty if the mimimum is greater than the maximum. \mbox{\hyperlink{class_box_aa949b1e2b893eb90c8b7e4ded7973671}{make\+Empty()}} sets mimimum to T\+::base\+Type\+Max() and maximum to T\+::base\+Type\+Min(). \mbox{\Hypertarget{class_box_a95c9a1b87f1d119e4c4dadba43c4b974}\label{class_box_a95c9a1b87f1d119e4c4dadba43c4b974}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!makeInfinite@{makeInfinite}}
+\index{makeInfinite@{makeInfinite}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{makeInfinite()}{makeInfinite()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::make\+Infinite\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Make the box include the entire range of T. 
+
+\mbox{\Hypertarget{class_box_a0d1a09f459d07e0aafcc27c98248637e}\label{class_box_a0d1a09f459d07e0aafcc27c98248637e}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&}]{src }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Compare two \mbox{\hyperlink{class_box}{Box}} objects for inequality. 
+
+\mbox{\Hypertarget{class_box_a972b6e402991e82fb5142f3b6a76c397}\label{class_box_a972b6e402991e82fb5142f3b6a76c397}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+constexpr bool \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_box}{Box}}$<$ T $>$ \&}]{src }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Compare two \mbox{\hyperlink{class_box}{Box}} objects for equality. 
+
+\mbox{\Hypertarget{class_box_ac3b09c87a9bdf4387556998cc00e7300}\label{class_box_ac3b09c87a9bdf4387556998cc00e7300}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!size@{size}}
+\index{size@{size}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::size\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the size of the box. 
+
+The size is defined as (max-\/min). An empty box has a size of 0. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_box_a85e2b0eb6223e2d4cccfea94c19b4384}\label{class_box_a85e2b0eb6223e2d4cccfea94c19b4384}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!max@{max}}
+\index{max@{max}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{max}{max}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::max}
+
+
+
+The maximum value of the box. 
+
+\mbox{\Hypertarget{class_box_ac767f7eb740b6d74f7bf65af59f58b54}\label{class_box_ac767f7eb740b6d74f7bf65af59f58b54}} 
+\index{Box$<$ T $>$@{Box$<$ T $>$}!min@{min}}
+\index{min@{min}!Box$<$ T $>$@{Box$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{min}{min}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \mbox{\hyperlink{class_box}{Box}}$<$ T $>$\+::min}
+
+
+
+The minimum value of the box. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Imath\+Box.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,180 @@
+\hypertarget{class_euler}{}\doxysection{Euler$<$ T $>$ Class Template Reference}
+\label{class_euler}\index{Euler$<$ T $>$@{Euler$<$ T $>$}}
+Inheritance diagram for Euler$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_euler}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_euler_a22c78063567f47242d2ef3db29f3d8c8}\label{class_euler_a22c78063567f47242d2ef3db29f3d8c8}} 
+enum {\bfseries Order} \{ \newline
+{\bfseries X\+YZ} = 0x0101, 
+{\bfseries X\+ZY} = 0x0001, 
+{\bfseries Y\+ZX} = 0x1101, 
+{\bfseries Y\+XZ} = 0x1001, 
+\newline
+{\bfseries Z\+XY} = 0x2101, 
+{\bfseries Z\+YX} = 0x2001, 
+{\bfseries X\+ZX} = 0x0011, 
+{\bfseries X\+YX} = 0x0111, 
+\newline
+{\bfseries Y\+XY} = 0x1011, 
+{\bfseries Y\+ZY} = 0x1111, 
+{\bfseries Z\+YZ} = 0x2011, 
+{\bfseries Z\+XZ} = 0x2111, 
+\newline
+{\bfseries X\+Y\+Zr} = 0x2000, 
+{\bfseries X\+Z\+Yr} = 0x2100, 
+{\bfseries Y\+Z\+Xr} = 0x1000, 
+{\bfseries Y\+X\+Zr} = 0x1100, 
+\newline
+{\bfseries Z\+X\+Yr} = 0x0000, 
+{\bfseries Z\+Y\+Xr} = 0x0100, 
+{\bfseries X\+Z\+Xr} = 0x2110, 
+{\bfseries X\+Y\+Xr} = 0x2010, 
+\newline
+{\bfseries Y\+X\+Yr} = 0x1110, 
+{\bfseries Y\+Z\+Yr} = 0x1010, 
+{\bfseries Z\+Y\+Zr} = 0x0110, 
+{\bfseries Z\+X\+Zr} = 0x0010, 
+\newline
+{\bfseries Legal}, 
+{\bfseries Min} = 0x0000, 
+{\bfseries Max} = 0x2111, 
+{\bfseries Default} = X\+YZ
+ \}
+\item 
+\mbox{\Hypertarget{class_euler_aa78ad6f8199156c615add31915e83877}\label{class_euler_aa78ad6f8199156c615add31915e83877}} 
+enum {\bfseries Axis} \{ {\bfseries X} = 0, 
+{\bfseries Y} = 1, 
+{\bfseries Z} = 2
+ \}
+\item 
+\mbox{\Hypertarget{class_euler_a2e42ff98f748a0892c73df8dd71eb25d}\label{class_euler_a2e42ff98f748a0892c73df8dd71eb25d}} 
+enum {\bfseries Input\+Layout} \{ {\bfseries X\+Y\+Z\+Layout}, 
+{\bfseries I\+J\+K\+Layout}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_euler_a19bf557691e800b63d77a088f57c2908}\label{class_euler_a19bf557691e800b63d77a088f57c2908}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Euler} (const \mbox{\hyperlink{class_euler}{Euler}} \&)
+\item 
+\mbox{\Hypertarget{class_euler_a7c4d75e7abac60f167661860fd6e7897}\label{class_euler_a7c4d75e7abac60f167661860fd6e7897}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Euler} (Order p)
+\item 
+\mbox{\Hypertarget{class_euler_a7f574b8ea21d47c6ea55267697f41bc0}\label{class_euler_a7f574b8ea21d47c6ea55267697f41bc0}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Euler} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&v, Order o=Default, Input\+Layout l=I\+J\+K\+Layout)
+\item 
+\mbox{\Hypertarget{class_euler_a0884778d0aefb7472f16a3cb1d6dd842}\label{class_euler_a0884778d0aefb7472f16a3cb1d6dd842}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Euler} (T i, T j, T k, Order o=Default, Input\+Layout l=I\+J\+K\+Layout)
+\item 
+\mbox{\Hypertarget{class_euler_a1c7e6d0370d6e9ee8826b4b6532d830e}\label{class_euler_a1c7e6d0370d6e9ee8826b4b6532d830e}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Euler} (const \mbox{\hyperlink{class_euler}{Euler}}$<$ T $>$ \&euler, Order newp)
+\item 
+\mbox{\Hypertarget{class_euler_ab93a93bdc2ab0d82ab47e82d4671f26b}\label{class_euler_ab93a93bdc2ab0d82ab47e82d4671f26b}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Euler} (const \mbox{\hyperlink{class_matrix33}{Matrix33}}$<$ T $>$ \&, Order o=Default)
+\item 
+\mbox{\Hypertarget{class_euler_a66fba3b41572acda3e6a9aa7cf4d52fc}\label{class_euler_a66fba3b41572acda3e6a9aa7cf4d52fc}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Euler} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \&, Order o=Default)
+\item 
+\mbox{\Hypertarget{class_euler_a49500315cda8079260f6e65c9204df97}\label{class_euler_a49500315cda8079260f6e65c9204df97}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_euler}{Euler}}$<$ T $>$ \& {\bfseries operator=} (const \mbox{\hyperlink{class_euler}{Euler}}$<$ T $>$ \&)
+\item 
+\mbox{\Hypertarget{class_euler_a059213c0e1461b21f4527c4338689713}\label{class_euler_a059213c0e1461b21f4527c4338689713}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_euler}{Euler}}$<$ T $>$ \& {\bfseries operator=} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&)
+\item 
+\mbox{\Hypertarget{class_euler_afd824373db9fa266b05cca1e724a1548}\label{class_euler_afd824373db9fa266b05cca1e724a1548}} 
+void {\bfseries set\+X\+Y\+Z\+Vector} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&)
+\item 
+\mbox{\Hypertarget{class_euler_ad7f90d040a826ba2222d783836c26e57}\label{class_euler_ad7f90d040a826ba2222d783836c26e57}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 Order {\bfseries order} () const
+\item 
+\mbox{\Hypertarget{class_euler_a0567410b893e111c67e97fcabc88e420}\label{class_euler_a0567410b893e111c67e97fcabc88e420}} 
+void {\bfseries set\+Order} (Order)
+\item 
+\mbox{\Hypertarget{class_euler_ab4b81124b33dae675e2d37a5c0974f3e}\label{class_euler_ab4b81124b33dae675e2d37a5c0974f3e}} 
+void {\bfseries set} (Axis initial, bool relative, bool parity\+Even, bool first\+Repeats)
+\item 
+\mbox{\Hypertarget{class_euler_ab3986b3b3253474bcdc637de352453b0}\label{class_euler_ab3986b3b3253474bcdc637de352453b0}} 
+void {\bfseries extract} (const \mbox{\hyperlink{class_matrix33}{Matrix33}}$<$ T $>$ \&)
+\item 
+\mbox{\Hypertarget{class_euler_adcebc104c4506bf776972355aa051072}\label{class_euler_adcebc104c4506bf776972355aa051072}} 
+void {\bfseries extract} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \&)
+\item 
+\mbox{\Hypertarget{class_euler_af4d4876330383cb7988e79a018758f7b}\label{class_euler_af4d4876330383cb7988e79a018758f7b}} 
+void {\bfseries extract} (const \mbox{\hyperlink{class_quat}{Quat}}$<$ T $>$ \&)
+\item 
+\mbox{\Hypertarget{class_euler_ae83eff8f66fcfb49e63f66b1ac40f321}\label{class_euler_ae83eff8f66fcfb49e63f66b1ac40f321}} 
+\mbox{\hyperlink{class_matrix33}{Matrix33}}$<$ T $>$ {\bfseries to\+Matrix33} () const
+\item 
+\mbox{\Hypertarget{class_euler_abf8d1c43e7ca1644c384001f0fe1cf66}\label{class_euler_abf8d1c43e7ca1644c384001f0fe1cf66}} 
+\mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ {\bfseries to\+Matrix44} () const
+\item 
+\mbox{\Hypertarget{class_euler_a7bda06fdc2e9e4b913b045feea85604e}\label{class_euler_a7bda06fdc2e9e4b913b045feea85604e}} 
+\mbox{\hyperlink{class_quat}{Quat}}$<$ T $>$ {\bfseries to\+Quat} () const
+\item 
+\mbox{\Hypertarget{class_euler_a5d8b0bfb03391bc6e0cb648c18e08a00}\label{class_euler_a5d8b0bfb03391bc6e0cb648c18e08a00}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries to\+X\+Y\+Z\+Vector} () const
+\item 
+\mbox{\Hypertarget{class_euler_a4f233a3efbb4d1aa659a0e8dc42e0bc2}\label{class_euler_a4f233a3efbb4d1aa659a0e8dc42e0bc2}} 
+void {\bfseries angle\+Order} (int \&i, int \&j, int \&k) const
+\item 
+\mbox{\Hypertarget{class_euler_a88a4a2cd3c451bdbb600f129b713a183}\label{class_euler_a88a4a2cd3c451bdbb600f129b713a183}} 
+void {\bfseries angle\+Mapping} (int \&i, int \&j, int \&k) const
+\item 
+\mbox{\Hypertarget{class_euler_a86e8a9510d5ae070415a8d12ec62023a}\label{class_euler_a86e8a9510d5ae070415a8d12ec62023a}} 
+void {\bfseries make\+Near} (const \mbox{\hyperlink{class_euler}{Euler}}$<$ T $>$ \&target)
+\item 
+\mbox{\Hypertarget{class_euler_af7eaf1a61c4a725f0d55c0b35411e428}\label{class_euler_af7eaf1a61c4a725f0d55c0b35411e428}} 
+constexpr bool {\bfseries frame\+Static} () const
+\item 
+\mbox{\Hypertarget{class_euler_a8c6a5e84821bbfa1e6c244c7666b870e}\label{class_euler_a8c6a5e84821bbfa1e6c244c7666b870e}} 
+constexpr bool {\bfseries initial\+Repeated} () const
+\item 
+\mbox{\Hypertarget{class_euler_a43bf409c79a32bff7c435fdb8889f8e3}\label{class_euler_a43bf409c79a32bff7c435fdb8889f8e3}} 
+constexpr bool {\bfseries parity\+Even} () const
+\item 
+\mbox{\Hypertarget{class_euler_afa459e99c96caf2eace3409713fc480b}\label{class_euler_afa459e99c96caf2eace3409713fc480b}} 
+constexpr Axis {\bfseries initial\+Axis} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_euler_acc0773b19c1d8f15092390bc432ba862}\label{class_euler_acc0773b19c1d8f15092390bc432ba862}} 
+constexpr static bool {\bfseries legal} (Order)
+\item 
+\mbox{\Hypertarget{class_euler_adf1280cb4bb7bcb8d3057276dfc520ac}\label{class_euler_adf1280cb4bb7bcb8d3057276dfc520ac}} 
+static I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 float {\bfseries angle\+Mod} (T angle)
+\item 
+\mbox{\Hypertarget{class_euler_a60decdbdc177fa0e0f4c01e3ea4152c3}\label{class_euler_a60decdbdc177fa0e0f4c01e3ea4152c3}} 
+static void {\bfseries simple\+X\+Y\+Z\+Rotation} (\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&xyz\+Rot, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&target\+Xyz\+Rot)
+\item 
+\mbox{\Hypertarget{class_euler_afd94e57c0c4711e4252d7a40b55917d8}\label{class_euler_afd94e57c0c4711e4252d7a40b55917d8}} 
+static void {\bfseries nearest\+Rotation} (\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&xyz\+Rot, const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&target\+Xyz\+Rot, Order order=X\+YZ)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_euler_a79c11d9cc6c0505f9673ec768dd37faa}\label{class_euler_a79c11d9cc6c0505f9673ec768dd37faa}} 
+bool {\bfseries \+\_\+frame\+Static}\+: 1
+\item 
+\mbox{\Hypertarget{class_euler_ae0a3a83681dbc9a7942d9b927d0d5ab8}\label{class_euler_ae0a3a83681dbc9a7942d9b927d0d5ab8}} 
+bool {\bfseries \+\_\+initial\+Repeated}\+: 1
+\item 
+\mbox{\Hypertarget{class_euler_a6db64e9501e24eddbed07dafecaeae88}\label{class_euler_a6db64e9501e24eddbed07dafecaeae88}} 
+bool {\bfseries \+\_\+parity\+Even}\+: 1
+\item 
+\mbox{\Hypertarget{class_euler_a401c35e4ae0299d01d42895941b604a2}\label{class_euler_a401c35e4ae0299d01d42895941b604a2}} 
+Axis {\bfseries \+\_\+initial\+Axis}\+: 2
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Imath\+Euler.\+h\end{DoxyCompactItemize}

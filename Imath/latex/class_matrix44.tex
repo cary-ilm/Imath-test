@@ -1,0 +1,263 @@
+\hypertarget{class_matrix44}{}\doxysection{Matrix44$<$ T $>$ Class Template Reference}
+\label{class_matrix44}\index{Matrix44$<$ T $>$@{Matrix44$<$ T $>$}}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix44_a72340aab050546d4663a68a2a6b86f53}\label{class_matrix44_a72340aab050546d4663a68a2a6b86f53}} 
+typedef T {\bfseries Base\+Type}
+\item 
+\mbox{\Hypertarget{class_matrix44_a56dfefeb2f12d867877e5b016c66ea5a}\label{class_matrix44_a56dfefeb2f12d867877e5b016c66ea5a}} 
+typedef \mbox{\hyperlink{class_vec4}{Vec4}}$<$ T $>$ {\bfseries Base\+Vec\+Type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix44_a0601a90a8ec11bca76070744be2acf43}\label{class_matrix44_a0601a90a8ec11bca76070744be2acf43}} 
+T $\ast$ {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i)
+\item 
+\mbox{\Hypertarget{class_matrix44_aa3ed36404b08caa74e98a8fd6eca8494}\label{class_matrix44_aa3ed36404b08caa74e98a8fd6eca8494}} 
+const T $\ast$ {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i) const
+\item 
+\mbox{\Hypertarget{class_matrix44_a95539f3a40c6e65b0e83b2081ade43b3}\label{class_matrix44_a95539f3a40c6e65b0e83b2081ade43b3}} 
+constexpr {\bfseries Matrix44} (Uninitialized)
+\item 
+\mbox{\Hypertarget{class_matrix44_a26dc4230ac59651f236c2abf7f451702}\label{class_matrix44_a26dc4230ac59651f236c2abf7f451702}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Matrix44} (T a)
+\item 
+\mbox{\Hypertarget{class_matrix44_a66bf98df8ad53575d005b7f0dd65553c}\label{class_matrix44_a66bf98df8ad53575d005b7f0dd65553c}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Matrix44} (const T a\mbox{[}4\mbox{]}\mbox{[}4\mbox{]})
+\item 
+\mbox{\Hypertarget{class_matrix44_a24654781807f226b3bb03a2fcbabf65c}\label{class_matrix44_a24654781807f226b3bb03a2fcbabf65c}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Matrix44} (T a, T b, T c, T d, T e, T f, T g, T h, T i, T j, T k, T l, T m, T n, T o, T p)
+\item 
+\mbox{\Hypertarget{class_matrix44_a5dfbd79a4dc8756649a645c0d6a5767a}\label{class_matrix44_a5dfbd79a4dc8756649a645c0d6a5767a}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Matrix44} (\mbox{\hyperlink{class_matrix33}{Matrix33}}$<$ T $>$ r, \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ t)
+\item 
+\mbox{\Hypertarget{class_matrix44_ac8474463a495a12ae567a600ad1e28fb}\label{class_matrix44_ac8474463a495a12ae567a600ad1e28fb}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Matrix44} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_abc418c0489235f482da679b09b707991}\label{class_matrix44_abc418c0489235f482da679b09b707991}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Matrix44} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ S $>$ \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_aeff1cd47372fcb3f1614db017947386e}\label{class_matrix44_aeff1cd47372fcb3f1614db017947386e}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a977d9511d7aca662181152a84949f2af}\label{class_matrix44_a977d9511d7aca662181152a84949f2af}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator=} (T a)
+\item 
+\mbox{\Hypertarget{class_matrix44_afd150038636ccdbdc75fd9bc6c08e99e}\label{class_matrix44_afd150038636ccdbdc75fd9bc6c08e99e}} 
+T $\ast$ {\bfseries get\+Value} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_ae4451c63cc09d2255788d21a859f0197}\label{class_matrix44_ae4451c63cc09d2255788d21a859f0197}} 
+const T $\ast$ {\bfseries get\+Value} () const
+\item 
+\mbox{\Hypertarget{class_matrix44_a969ef8f82e8c48a4694908a710e7fcab}\label{class_matrix44_a969ef8f82e8c48a4694908a710e7fcab}} 
+{\footnotesize template$<$class S $>$ }\\void {\bfseries get\+Value} (\mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ S $>$ \&v) const
+\item 
+\mbox{\Hypertarget{class_matrix44_ab915c16caa71e787ad06b3baae8a40fa}\label{class_matrix44_ab915c16caa71e787ad06b3baae8a40fa}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Value} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ S $>$ \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a5d736bb1394b25ea1761628e8831b544}\label{class_matrix44_a5d736bb1394b25ea1761628e8831b544}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+The\+Matrix} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ S $>$ \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a0ff0b04f304c4b929f25083499020cec}\label{class_matrix44_a0ff0b04f304c4b929f25083499020cec}} 
+void {\bfseries make\+Identity} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_a86868cf1619675a0ee75ffb89d3437f5}\label{class_matrix44_a86868cf1619675a0ee75ffb89d3437f5}} 
+constexpr bool {\bfseries operator==} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v) const
+\item 
+\mbox{\Hypertarget{class_matrix44_aa6118563aa6e690b45409c1552f25683}\label{class_matrix44_aa6118563aa6e690b45409c1552f25683}} 
+constexpr bool {\bfseries operator!=} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v) const
+\item 
+\mbox{\Hypertarget{class_matrix44_ada541b3c6556dc78cb1e444a70980f1b}\label{class_matrix44_ada541b3c6556dc78cb1e444a70980f1b}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool {\bfseries equal\+With\+Abs\+Error} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \&v, T e) const
+\item 
+\mbox{\Hypertarget{class_matrix44_a1ec55355c9df299a4bf7eb13d01b455f}\label{class_matrix44_a1ec55355c9df299a4bf7eb13d01b455f}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 bool {\bfseries equal\+With\+Rel\+Error} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \&v, T e) const
+\item 
+\mbox{\Hypertarget{class_matrix44_ae1a614b58df43961fcbed1239876a12e}\label{class_matrix44_ae1a614b58df43961fcbed1239876a12e}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator+=} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a65c0eb8bea3f4b63b27450983e9a5f62}\label{class_matrix44_a65c0eb8bea3f4b63b27450983e9a5f62}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator+=} (T a)
+\item 
+\mbox{\Hypertarget{class_matrix44_a98cba3c8f4ffbb5335ca28c968448421}\label{class_matrix44_a98cba3c8f4ffbb5335ca28c968448421}} 
+constexpr \mbox{\hyperlink{class_matrix44}{Matrix44}} {\bfseries operator+} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v) const
+\item 
+\mbox{\Hypertarget{class_matrix44_ac36fd0f6a499337721356b51f90eb2c8}\label{class_matrix44_ac36fd0f6a499337721356b51f90eb2c8}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator-\/=} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a2c88afe7c335c1e078c3d034df26f08a}\label{class_matrix44_a2c88afe7c335c1e078c3d034df26f08a}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator-\/=} (T a)
+\item 
+\mbox{\Hypertarget{class_matrix44_ae3d498bb9f820400dca9f9edc3289d07}\label{class_matrix44_ae3d498bb9f820400dca9f9edc3289d07}} 
+constexpr \mbox{\hyperlink{class_matrix44}{Matrix44}} {\bfseries operator-\/} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v) const
+\item 
+\mbox{\Hypertarget{class_matrix44_ad32fead2df68e858ae3aeaf526fd2a17}\label{class_matrix44_ad32fead2df68e858ae3aeaf526fd2a17}} 
+constexpr \mbox{\hyperlink{class_matrix44}{Matrix44}} {\bfseries operator-\/} () const
+\item 
+\mbox{\Hypertarget{class_matrix44_a431134d65b73fe80d1f58e9c5a642241}\label{class_matrix44_a431134d65b73fe80d1f58e9c5a642241}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries negate} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_afdd9b6c1b1ddf8e8e182790c4e7031ea}\label{class_matrix44_afdd9b6c1b1ddf8e8e182790c4e7031ea}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator$\ast$=} (T a)
+\item 
+\mbox{\Hypertarget{class_matrix44_a1cc1e5e3eb9cf04392d47a7bd4569164}\label{class_matrix44_a1cc1e5e3eb9cf04392d47a7bd4569164}} 
+constexpr \mbox{\hyperlink{class_matrix44}{Matrix44}} {\bfseries operator$\ast$} (T a) const
+\item 
+\mbox{\Hypertarget{class_matrix44_a413c2acebad05dfaaa9cef066c9cb85e}\label{class_matrix44_a413c2acebad05dfaaa9cef066c9cb85e}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator$\ast$=} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a56a40564236cb3b74e79970f6fe10875}\label{class_matrix44_a56a40564236cb3b74e79970f6fe10875}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_matrix44}{Matrix44}} {\bfseries operator$\ast$} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&v) const
+\item 
+\mbox{\Hypertarget{class_matrix44_aae3138b0a4cbe9febc33fc73358f04de}\label{class_matrix44_aae3138b0a4cbe9febc33fc73358f04de}} 
+{\footnotesize template$<$class S $>$ }\\void {\bfseries mult\+Vec\+Matrix} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&src, \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&dst) const
+\item 
+\mbox{\Hypertarget{class_matrix44_a8b780a19a94f38af2b386fa6fb35754a}\label{class_matrix44_a8b780a19a94f38af2b386fa6fb35754a}} 
+{\footnotesize template$<$class S $>$ }\\void {\bfseries mult\+Dir\+Matrix} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&src, \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&dst) const
+\item 
+\mbox{\Hypertarget{class_matrix44_a6d5b64db6fa46ec418982c24c2899779}\label{class_matrix44_a6d5b64db6fa46ec418982c24c2899779}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries operator/=} (T a)
+\item 
+\mbox{\Hypertarget{class_matrix44_a4483557942e363c0223ad3b2512e4b06}\label{class_matrix44_a4483557942e363c0223ad3b2512e4b06}} 
+constexpr \mbox{\hyperlink{class_matrix44}{Matrix44}} {\bfseries operator/} (T a) const
+\item 
+\mbox{\Hypertarget{class_matrix44_af9dbda53ef06c3e0538d430edcad0010}\label{class_matrix44_af9dbda53ef06c3e0538d430edcad0010}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries transpose} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_a5f981e95f3cf9132b795330469522ccc}\label{class_matrix44_a5f981e95f3cf9132b795330469522ccc}} 
+constexpr \mbox{\hyperlink{class_matrix44}{Matrix44}} {\bfseries transposed} () const
+\item 
+\mbox{\Hypertarget{class_matrix44_a45864d522fd8adcb7542550dec31d7e7}\label{class_matrix44_a45864d522fd8adcb7542550dec31d7e7}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries invert} (bool sing\+Exc=false)
+\item 
+\mbox{\Hypertarget{class_matrix44_aa352db792de939baa467a0bc5e7072db}\label{class_matrix44_aa352db792de939baa467a0bc5e7072db}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ {\bfseries inverse} (bool sing\+Exc=false) const
+\item 
+\mbox{\Hypertarget{class_matrix44_ac2eba9fb7df117070dde5ecc08c20f50}\label{class_matrix44_ac2eba9fb7df117070dde5ecc08c20f50}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries gj\+Invert} (bool sing\+Exc=false)
+\item 
+\mbox{\Hypertarget{class_matrix44_a07e6b87fe6ea6e5ed5c0d2e5594d68df}\label{class_matrix44_a07e6b87fe6ea6e5ed5c0d2e5594d68df}} 
+\mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ {\bfseries gj\+Inverse} (bool sing\+Exc=false) const
+\item 
+\mbox{\Hypertarget{class_matrix44_ad91077030593848c97205ed531e13b29}\label{class_matrix44_ad91077030593848c97205ed531e13b29}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T {\bfseries minor\+Of} (const int r, const int c) const
+\item 
+\mbox{\Hypertarget{class_matrix44_a7cbf9b3994ea60ea29c1d4f17f3452b8}\label{class_matrix44_a7cbf9b3994ea60ea29c1d4f17f3452b8}} 
+constexpr T {\bfseries fast\+Minor} (const int r0, const int r1, const int r2, const int c0, const int c1, const int c2) const
+\item 
+\mbox{\Hypertarget{class_matrix44_a71613026d369b1dfd900b9b2c9b83624}\label{class_matrix44_a71613026d369b1dfd900b9b2c9b83624}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T {\bfseries determinant} () const
+\item 
+\mbox{\Hypertarget{class_matrix44_a9769f0aa19e717eb740166355655621f}\label{class_matrix44_a9769f0aa19e717eb740166355655621f}} 
+{\footnotesize template$<$class S $>$ }\\const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Euler\+Angles} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&r)
+\item 
+\mbox{\Hypertarget{class_matrix44_aa06d80f58e19e06b33423546ef8e5cc1}\label{class_matrix44_aa06d80f58e19e06b33423546ef8e5cc1}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Axis\+Angle} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&ax, S ang)
+\item 
+\mbox{\Hypertarget{class_matrix44_ab350b49b704a6978f95827abd827f2a7}\label{class_matrix44_ab350b49b704a6978f95827abd827f2a7}} 
+{\footnotesize template$<$class S $>$ }\\const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries rotate} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&r)
+\item 
+\mbox{\Hypertarget{class_matrix44_a1b5bc39bbb29a19f7ae198c20df795c7}\label{class_matrix44_a1b5bc39bbb29a19f7ae198c20df795c7}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Scale} (T s)
+\item 
+\mbox{\Hypertarget{class_matrix44_a075935d43c29d6023e2a054320a3e4ac}\label{class_matrix44_a075935d43c29d6023e2a054320a3e4ac}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Scale} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&s)
+\item 
+\mbox{\Hypertarget{class_matrix44_a282e0386a3a703301b45cba3724df459}\label{class_matrix44_a282e0386a3a703301b45cba3724df459}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries scale} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&s)
+\item 
+\mbox{\Hypertarget{class_matrix44_a1737f7429d774e90b81cac9be3ac211e}\label{class_matrix44_a1737f7429d774e90b81cac9be3ac211e}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Translation} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&t)
+\item 
+\mbox{\Hypertarget{class_matrix44_ac273a5f4c952de6cacf4cd8224dbc22a}\label{class_matrix44_ac273a5f4c952de6cacf4cd8224dbc22a}} 
+constexpr const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries translation} () const
+\item 
+\mbox{\Hypertarget{class_matrix44_abaff47436538d1ff2768c448b34784ef}\label{class_matrix44_abaff47436538d1ff2768c448b34784ef}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries translate} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&t)
+\item 
+\mbox{\Hypertarget{class_matrix44_a3f781b65da01cb113c9c84c05a140425}\label{class_matrix44_a3f781b65da01cb113c9c84c05a140425}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Shear} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&h)
+\item 
+\mbox{\Hypertarget{class_matrix44_a07dcc6728e1bac943729934e23e8ce45}\label{class_matrix44_a07dcc6728e1bac943729934e23e8ce45}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries set\+Shear} (const \mbox{\hyperlink{class_shear6}{Shear6}}$<$ S $>$ \&h)
+\item 
+\mbox{\Hypertarget{class_matrix44_a51917de96149107d174a263f9737b04e}\label{class_matrix44_a51917de96149107d174a263f9737b04e}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries shear} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&h)
+\item 
+\mbox{\Hypertarget{class_matrix44_a9bdbfe6c34b912603666c877af25f96c}\label{class_matrix44_a9bdbfe6c34b912603666c877af25f96c}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}} \& {\bfseries shear} (const \mbox{\hyperlink{class_shear6}{Shear6}}$<$ S $>$ \&h)
+\item 
+\mbox{\Hypertarget{class_matrix44_af2752f04aa159513090a5ae6afd270ce}\label{class_matrix44_af2752f04aa159513090a5ae6afd270ce}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+Value} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ S $>$ \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a9037b344af7d3c1fb5796e018fa7ce7a}\label{class_matrix44_a9037b344af7d3c1fb5796e018fa7ce7a}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+The\+Matrix} (const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ S $>$ \&v)
+\item 
+\mbox{\Hypertarget{class_matrix44_a3788fc6653eadb0fd97d675aac7098c7}\label{class_matrix44_a3788fc6653eadb0fd97d675aac7098c7}} 
+{\footnotesize template$<$class S $>$ }\\const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+Euler\+Angles} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&r)
+\item 
+\mbox{\Hypertarget{class_matrix44_aeb893771f46b837e5be6185b642e3047}\label{class_matrix44_aeb893771f46b837e5be6185b642e3047}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+Axis\+Angle} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&axis, S angle)
+\item 
+\mbox{\Hypertarget{class_matrix44_a8782e57fc203de8ce7244024959bd172}\label{class_matrix44_a8782e57fc203de8ce7244024959bd172}} 
+{\footnotesize template$<$class S $>$ }\\const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries rotate} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&r)
+\item 
+\mbox{\Hypertarget{class_matrix44_a8ebcc24fd4a388ed5133df797108d3ca}\label{class_matrix44_a8ebcc24fd4a388ed5133df797108d3ca}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+Scale} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&s)
+\item 
+\mbox{\Hypertarget{class_matrix44_a33ab4a3f9042d72dbcf82a5e13bb6b87}\label{class_matrix44_a33ab4a3f9042d72dbcf82a5e13bb6b87}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries scale} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&s)
+\item 
+\mbox{\Hypertarget{class_matrix44_a43425ae939f9bb12f8eeafa6ee648d10}\label{class_matrix44_a43425ae939f9bb12f8eeafa6ee648d10}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+Translation} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&t)
+\item 
+\mbox{\Hypertarget{class_matrix44_a60deb578ee8061401054e32538577617}\label{class_matrix44_a60deb578ee8061401054e32538577617}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries translate} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&t)
+\item 
+\mbox{\Hypertarget{class_matrix44_a9b77f6c8445ca3cd6d1170bdcf8912f9}\label{class_matrix44_a9b77f6c8445ca3cd6d1170bdcf8912f9}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+Shear} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&h)
+\item 
+\mbox{\Hypertarget{class_matrix44_a150dfc61e226643004889de68586550a}\label{class_matrix44_a150dfc61e226643004889de68586550a}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries set\+Shear} (const \mbox{\hyperlink{class_shear6}{Shear6}}$<$ S $>$ \&h)
+\item 
+\mbox{\Hypertarget{class_matrix44_adc6ae4032a9c88c048007c39c0ec3be1}\label{class_matrix44_adc6ae4032a9c88c048007c39c0ec3be1}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries shear} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ S $>$ \&h)
+\item 
+\mbox{\Hypertarget{class_matrix44_af0672de8a0dfe97907ae748e54bcaa70}\label{class_matrix44_af0672de8a0dfe97907ae748e54bcaa70}} 
+{\footnotesize template$<$class S $>$ }\\I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \& {\bfseries shear} (const \mbox{\hyperlink{class_shear6}{Shear6}}$<$ S $>$ \&h)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix44_a1662759e41fbc629c83b02d8b8d4ed64}\label{class_matrix44_a1662759e41fbc629c83b02d8b8d4ed64}} 
+static void {\bfseries multiply} (const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&a, const \mbox{\hyperlink{class_matrix44}{Matrix44}} \&b, \mbox{\hyperlink{class_matrix44}{Matrix44}} \&c)
+\item 
+\mbox{\Hypertarget{class_matrix44_a38d81fe0c57cee690b23a006f3bacfa7}\label{class_matrix44_a38d81fe0c57cee690b23a006f3bacfa7}} 
+constexpr static unsigned int {\bfseries dimensions} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_a54be05f957e02d9176dde4df7aef0ed5}\label{class_matrix44_a54be05f957e02d9176dde4df7aef0ed5}} 
+constexpr static T {\bfseries base\+Type\+Min} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_a0ad49f3a3e3da8afaa9e79f3bd1dcfa6}\label{class_matrix44_a0ad49f3a3e3da8afaa9e79f3bd1dcfa6}} 
+constexpr static T {\bfseries base\+Type\+Max} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_a3416132363ea5afc01cae257b500c047}\label{class_matrix44_a3416132363ea5afc01cae257b500c047}} 
+constexpr static T {\bfseries base\+Type\+Smallest} ()
+\item 
+\mbox{\Hypertarget{class_matrix44_acd8cf77abe174915d1a3d52e3c1976e4}\label{class_matrix44_acd8cf77abe174915d1a3d52e3c1976e4}} 
+constexpr static T {\bfseries base\+Type\+Epsilon} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix44_a8e689ab598c8d0df380f926af8c424ff}\label{class_matrix44_a8e689ab598c8d0df380f926af8c424ff}} 
+T {\bfseries x} \mbox{[}4\mbox{]}\mbox{[}4\mbox{]}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Imath\+Forward.\+h\item 
+Imath\+Matrix.\+h\end{DoxyCompactItemize}

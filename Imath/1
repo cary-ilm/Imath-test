@@ -1,0 +1,1116 @@
+warning: ignoring unsupported tag 'XXX_ABBREVIATE_BRIEF' at line 129, file ../doxygen.config
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:72: warning: Compound Rand32 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:67: warning: Compound Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:238: warning: Compound limits< long double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:111: warning: Compound Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:188: warning: Compound limits< unsigned int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:178: warning: Compound limits< int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:158: warning: Compound limits< short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:138: warning: Compound limits< signed char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:128: warning: Compound limits< char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:88: warning: Compound Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:218: warning: Compound limits< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathGL.h:163: warning: Compound GLBegin is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:123: warning: Compound Rand48 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathGL.h:156: warning: Compound GLPushAttrib is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:56: warning: Compound Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:119: warning: Compound Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathGL.h:149: warning: Compound GLPushMatrix is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:54: warning: Compound Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:114: warning: Compound limits is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:65: warning: Compound Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:55: warning: Compound Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:208: warning: Compound limits< unsigned long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:141: warning: Compound Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:58: warning: Compound Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:63: warning: Compound Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:59: warning: Compound Sphere3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:57: warning: Compound Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:52: warning: Compound Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:53: warning: Compound Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathHalfLimits.h:51: warning: Compound limits< half > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:51: warning: Compound FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:228: warning: Compound limits< double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:168: warning: Compound limits< unsigned short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:50: warning: Compound Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:198: warning: Compound limits< long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:148: warning: Compound limits< unsigned char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:50: warning: Compound Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathForward.h:64: warning: Compound Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:408: warning: no matching class member found for 
+  template < T >
+  IMATH_CONSTEXPR14 Euler< T >::Euler(typename Euler< T >::Order p)
+Possible candidates:
+  'constexpr Euler< T >::Euler()'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Euler &)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(Order p)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Vec3< T > &v, Order o=Default, InputLayout l=IJKLayout)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(T i, T j, T k, Order o=Default, InputLayout l=IJKLayout)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Euler< T > &euler, Order newp)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Matrix33< T > &, Order o=Default)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Matrix44< T > &, Order o=Default)'
+
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:419: warning: no matching class member found for 
+  template < T >
+  IMATH_CONSTEXPR14 Euler< T >::Euler(const Vec3< T > &v, typename Euler< T >::Order p, typename Euler< T >::InputLayout l)
+Possible candidates:
+  'constexpr Euler< T >::Euler()'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Euler &)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(Order p)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Vec3< T > &v, Order o=Default, InputLayout l=IJKLayout)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(T i, T j, T k, Order o=Default, InputLayout l=IJKLayout)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Euler< T > &euler, Order newp)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Matrix33< T > &, Order o=Default)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Matrix44< T > &, Order o=Default)'
+
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:447: warning: no matching class member found for 
+  template < T >
+  IMATH_CONSTEXPR14 Euler< T >::Euler(T xi, T yi, T zi, typename Euler< T >::Order p, typename Euler< T >::InputLayout l)
+Possible candidates:
+  'constexpr Euler< T >::Euler()'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Euler &)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(Order p)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Vec3< T > &v, Order o=Default, InputLayout l=IJKLayout)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(T i, T j, T k, Order o=Default, InputLayout l=IJKLayout)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Euler< T > &euler, Order newp)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Matrix33< T > &, Order o=Default)'
+  'IMATH_CONSTEXPR14 Euler< T >::Euler(const Matrix44< T > &, Order o=Default)'
+
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:58: warning: Member Color3(T a) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:59: warning: Member Color3(T a, T b, T c) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:66: warning: Member Color3(const Color3 &c) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:67: warning: Member Color3(const Vec3< S > &v) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:69: warning: Member operator=(const Color3 &c) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:75: warning: Member operator+=(const Color3 &c) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:76: warning: Member operator+(const Color3 &c) const (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:82: warning: Member operator-=(const Color3 &c) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:83: warning: Member operator-(const Color3 &c) const (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:89: warning: Member operator-() const (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:90: warning: Member negate() (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:96: warning: Member operator*=(const Color3 &c) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:97: warning: Member operator*=(T a) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:98: warning: Member operator*(const Color3 &c) const (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:99: warning: Member operator*(T a) const (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:105: warning: Member operator/=(const Color3 &c) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:106: warning: Member operator/=(T a) (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:107: warning: Member operator/(const Color3 &c) const (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:108: warning: Member operator/(T a) const (function) of class Color3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:256: warning: Member operator[](int i) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:257: warning: Member operator[](int i) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:264: warning: Member Vec3(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:265: warning: Member Vec3(T a, T b, T c) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:271: warning: Member Vec3(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:272: warning: Member Vec3(const Vec3< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:274: warning: Member operator=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:293: warning: Member Vec3(const Vec4< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:294: warning: Member Vec3(const Vec4< S > &v, InfException) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:300: warning: Member setValue(S a, S b, S c) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:302: warning: Member setValue(const Vec3< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:304: warning: Member getValue(S &a, S &b, S &c) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:306: warning: Member getValue(Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:308: warning: Member getValue() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:309: warning: Member getValue() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:315: warning: Member operator==(const Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:317: warning: Member operator!=(const Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:337: warning: Member equalWithAbsError(const Vec3< T > &v, T e) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:338: warning: Member equalWithRelError(const Vec3< T > &v, T e) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:344: warning: Member dot(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:345: warning: Member operator^(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:351: warning: Member cross(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:352: warning: Member operator%=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:353: warning: Member operator%(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:359: warning: Member operator+=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:360: warning: Member operator+(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:366: warning: Member operator-=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:367: warning: Member operator-(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:373: warning: Member operator-() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:374: warning: Member negate() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:380: warning: Member operator*=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:381: warning: Member operator*=(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:382: warning: Member operator*(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:383: warning: Member operator*(T a) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:389: warning: Member operator/=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:390: warning: Member operator/=(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:391: warning: Member operator/(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:392: warning: Member operator/(T a) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:404: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:405: warning: Member length2() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:407: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:408: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:409: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:411: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:412: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:413: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:262: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:271: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:279: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:290: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:298: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:307: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:319: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:330: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:339: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:347: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:358: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:366: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:375: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:387: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:682: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:684: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:686: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:688: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:690: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:692: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:694: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:698: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:700: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:702: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:704: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:706: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:708: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:710: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:436: warning: Member BaseType (typedef) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:419: warning: Member dimensions() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:425: warning: Member baseTypeMin() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:426: warning: Member baseTypeMax() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:427: warning: Member baseTypeSmallest() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:428: warning: Member baseTypeEpsilon() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member x (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member y (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member z (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:224: warning: Member BaseType (typedef) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:120: warning: Member operator[](int i) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:121: warning: Member operator[](int i) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:128: warning: Member Color4(T a) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:129: warning: Member Color4(T a, T b, T c, T d) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:136: warning: Member Color4(const Color4 &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:137: warning: Member Color4(const Color4< S > &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:139: warning: Member operator=(const Color4 &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:145: warning: Member setValue(S a, S b, S c, S d) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:147: warning: Member setValue(const Color4< S > &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:149: warning: Member getValue(S &a, S &b, S &c, S &d) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:151: warning: Member getValue(Color4< S > &v) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:153: warning: Member getValue() (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:154: warning: Member getValue() const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:160: warning: Member operator==(const Color4< S > &v) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:162: warning: Member operator!=(const Color4< S > &v) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:168: warning: Member operator+=(const Color4 &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:169: warning: Member operator+(const Color4 &v) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:175: warning: Member operator-=(const Color4 &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:176: warning: Member operator-(const Color4 &v) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:182: warning: Member operator-() const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:183: warning: Member negate() (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:189: warning: Member operator*=(const Color4 &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:190: warning: Member operator*=(T a) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:191: warning: Member operator*(const Color4 &v) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:192: warning: Member operator*(T a) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:198: warning: Member operator/=(const Color4 &v) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:199: warning: Member operator/=(T a) (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:200: warning: Member operator/(const Color4 &v) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:201: warning: Member operator/(T a) const (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:207: warning: Member dimensions() (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:213: warning: Member baseTypeMin() (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:214: warning: Member baseTypeMax() (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:215: warning: Member baseTypeSmallest() (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:216: warning: Member baseTypeEpsilon() (function) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:118: warning: Member r (variable) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:118: warning: Member g (variable) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:118: warning: Member b (variable) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathColor.h:118: warning: Member a (variable) of class Color4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:148: warning: Member Order (enumeration) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:198: warning: Member Axis (enumeration) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:205: warning: Member InputLayout (enumeration) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:436: warning: Member BaseType (typedef) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:223: warning: Member Euler(const Euler &) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:224: warning: Member Euler(Order p) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:226: warning: Member Euler(const Vec3< T > &v, Order o=Default, InputLayout l=IJKLayout) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:228: warning: Member Euler(T i, T j, T k, Order o=Default, InputLayout l=IJKLayout) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:229: warning: Member Euler(const Euler< T > &euler, Order newp) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:230: warning: Member Euler(const Matrix33< T > &, Order o=Default) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:231: warning: Member Euler(const Matrix44< T > &, Order o=Default) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:243: warning: Member operator=(const Euler< T > &) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:244: warning: Member operator=(const Vec3< T > &) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:254: warning: Member setXYZVector(const Vec3< T > &) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:256: warning: Member order() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:257: warning: Member setOrder(Order) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:259: warning: Member set(Axis initial, bool relative, bool parityEven, bool firstRepeats) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:275: warning: Member extract(const Matrix33< T > &) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:276: warning: Member extract(const Matrix44< T > &) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:277: warning: Member extract(const Quat< T > &) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:278: warning: Member toMatrix33() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:279: warning: Member toMatrix44() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:280: warning: Member toQuat() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:281: warning: Member toXYZVector() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:287: warning: Member angleOrder(int &i, int &j, int &k) const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:294: warning: Member angleMapping(int &i, int &j, int &k) const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:325: warning: Member makeNear(const Euler< T > &target) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:327: warning: Member frameStatic() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:328: warning: Member initialRepeated() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:329: warning: Member parityEven() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:330: warning: Member initialAxis() const (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:256: warning: Member operator[](int i) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:257: warning: Member operator[](int i) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:264: warning: Member Vec3(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:265: warning: Member Vec3(T a, T b, T c) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:271: warning: Member Vec3(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:272: warning: Member Vec3(const Vec3< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:274: warning: Member operator=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:293: warning: Member Vec3(const Vec4< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:294: warning: Member Vec3(const Vec4< S > &v, InfException) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:300: warning: Member setValue(S a, S b, S c) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:302: warning: Member setValue(const Vec3< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:304: warning: Member getValue(S &a, S &b, S &c) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:306: warning: Member getValue(Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:308: warning: Member getValue() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:309: warning: Member getValue() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:315: warning: Member operator==(const Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:317: warning: Member operator!=(const Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:337: warning: Member equalWithAbsError(const Vec3< T > &v, T e) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:338: warning: Member equalWithRelError(const Vec3< T > &v, T e) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:344: warning: Member dot(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:345: warning: Member operator^(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:351: warning: Member cross(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:352: warning: Member operator%=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:353: warning: Member operator%(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:359: warning: Member operator+=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:360: warning: Member operator+(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:366: warning: Member operator-=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:367: warning: Member operator-(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:373: warning: Member operator-() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:374: warning: Member negate() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:380: warning: Member operator*=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:381: warning: Member operator*=(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:382: warning: Member operator*(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:383: warning: Member operator*(T a) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:389: warning: Member operator/=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:390: warning: Member operator/=(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:391: warning: Member operator/(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:392: warning: Member operator/(T a) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:404: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:405: warning: Member length2() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:407: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:408: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:409: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:411: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:412: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:413: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:262: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:271: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:279: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:290: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:298: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:307: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:319: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:330: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:339: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:347: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:358: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:366: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:375: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:387: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:682: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:684: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:686: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:688: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:690: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:692: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:694: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:698: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:700: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:702: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:704: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:706: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:708: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:710: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:252: warning: Member legal(Order) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:320: warning: Member angleMod(T angle) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:322: warning: Member simpleXYZRotation(Vec3< T > &xyzRot, const Vec3< T > &targetXyzRot) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:323: warning: Member nearestRotation(Vec3< T > &xyzRot, const Vec3< T > &targetXyzRot, Order order=XYZ) (function) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:419: warning: Member dimensions() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:425: warning: Member baseTypeMin() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:426: warning: Member baseTypeMax() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:427: warning: Member baseTypeSmallest() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:428: warning: Member baseTypeEpsilon() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:333: warning: Member _frameStatic (variable) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:334: warning: Member _initialRepeated (variable) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:335: warning: Member _parityEven (variable) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathEuler.h:339: warning: Member _initialAxis (variable) of class Euler is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member x (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member y (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member z (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:67: warning: Member Frustum(const Frustum &) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:69: warning: Member Frustum(T nearPlane, T farPlane, T left, T right, T top, T bottom, bool ortho=false) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:71: warning: Member Frustum(T nearPlane, T farPlane, T fovx, T fovy, T aspect) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:79: warning: Member operator=(const Frustum &) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:85: warning: Member operator==(const Frustum< T > &src) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:86: warning: Member operator!=(const Frustum< T > &src) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:92: warning: Member set(T nearPlane, T farPlane, T left, T right, T top, T bottom, bool ortho=false) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:94: warning: Member set(T nearPlane, T farPlane, T fovx, T fovy, T aspect) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:100: warning: Member modifyNearAndFar(T nearPlane, T farPlane) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:101: warning: Member setOrthographic(bool) (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:107: warning: Member orthographic() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:108: warning: Member nearPlane() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:109: warning: Member hither() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:110: warning: Member farPlane() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:111: warning: Member yon() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:112: warning: Member left() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:113: warning: Member right() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:114: warning: Member bottom() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:115: warning: Member top() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:125: warning: Member planes(Plane3< T > p[6]) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:126: warning: Member planes(Plane3< T > p[6], const Matrix44< T > &M) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:132: warning: Member fovx() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:133: warning: Member fovy() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:134: warning: Member aspect() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:136: warning: Member projectionMatrix() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:137: warning: Member degenerate() const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:147: warning: Member window(T left, T right, T top, T bottom) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:154: warning: Member projectScreenToRay(const Vec2< T > &) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:156: warning: Member projectPointToScreen(const Vec3< T > &) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:158: warning: Member ZToDepth(long zval, long min, long max) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:159: warning: Member normalizedZToDepth(T zval) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:161: warning: Member DepthToZ(T depth, long zmin, long zmax) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:163: warning: Member worldRadius(const Vec3< T > &p, T radius) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:164: warning: Member screenRadius(const Vec3< T > &p, T radius) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:167: warning: Member screenToLocal(const Vec2< T > &) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:169: warning: Member localToScreen(const Vec2< T > &) const (function) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:172: warning: Member _nearPlane (variable) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:173: warning: Member _farPlane (variable) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:174: warning: Member _left (variable) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:175: warning: Member _right (variable) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:176: warning: Member _top (variable) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:177: warning: Member _bottom (variable) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustum.h:178: warning: Member _orthographic (variable) of class Frustum is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:129: warning: Member FrustumTest(const Frustum< T > &frustum, const Matrix44< T > &cameraMat) (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:138: warning: Member setFrustum(const Frustum< T > &frustum, const Matrix44< T > &cameraMat) (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:143: warning: Member isVisible(const Sphere3< T > &sphere) const (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:144: warning: Member isVisible(const Box< Vec3< T >> &box) const (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:145: warning: Member isVisible(const Vec3< T > &vec) const (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:150: warning: Member completelyContains(const Sphere3< T > &sphere) const (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:151: warning: Member completelyContains(const Box< Vec3< T >> &box) const (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:156: warning: Member cameraMat() const (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:157: warning: Member currentFrustum() const (function) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:162: warning: Member planeNormX[2] (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:163: warning: Member planeNormY[2] (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:164: warning: Member planeNormZ[2] (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:166: warning: Member planeOffsetVec[2] (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:169: warning: Member planeNormAbsX[2] (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:170: warning: Member planeNormAbsY[2] (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:171: warning: Member planeNormAbsZ[2] (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:174: warning: Member currFrustum (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathFrustumTest.h:175: warning: Member cameraMatrix (variable) of class FrustumTest is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathGL.h:166: warning: Member GLBegin(GLenum mode) (function) of class GLBegin is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathGL.h:159: warning: Member GLPushAttrib(GLbitfield mask) (function) of class GLPushAttrib is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:69: warning: Member Interval(const T &point) (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:70: warning: Member Interval(const T &minT, const T &maxT) (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:76: warning: Member operator==(const Interval< T > &src) const (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:82: warning: Member makeEmpty() (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:83: warning: Member extendBy(const T &point) (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:84: warning: Member extendBy(const Interval< T > &interval) (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:90: warning: Member size() const (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:91: warning: Member center() const (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:92: warning: Member intersects(const T &point) const (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:93: warning: Member intersects(const Interval< T > &interval) const (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:99: warning: Member hasVolume() const (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:100: warning: Member isEmpty() const (function) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:61: warning: Member min (variable) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathInterval.h:62: warning: Member max (variable) of class Interval is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:116: warning: Member min() (function) of class limits is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:117: warning: Member max() (function) of class limits is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:118: warning: Member smallest() (function) of class limits is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:119: warning: Member epsilon() (function) of class limits is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:120: warning: Member isIntegral() (function) of class limits is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:121: warning: Member isSigned() (function) of class limits is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:130: warning: Member min() (function) of class limits< char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:131: warning: Member max() (function) of class limits< char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:132: warning: Member smallest() (function) of class limits< char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:133: warning: Member epsilon() (function) of class limits< char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:134: warning: Member isIntegral() (function) of class limits< char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:135: warning: Member isSigned() (function) of class limits< char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:230: warning: Member min() (function) of class limits< double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:231: warning: Member max() (function) of class limits< double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:232: warning: Member smallest() (function) of class limits< double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:233: warning: Member epsilon() (function) of class limits< double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:234: warning: Member isIntegral() (function) of class limits< double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:235: warning: Member isSigned() (function) of class limits< double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:220: warning: Member min() (function) of class limits< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:221: warning: Member max() (function) of class limits< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:222: warning: Member smallest() (function) of class limits< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:223: warning: Member epsilon() (function) of class limits< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:224: warning: Member isIntegral() (function) of class limits< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:225: warning: Member isSigned() (function) of class limits< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathHalfLimits.h:53: warning: Member min() (function) of class limits< half > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathHalfLimits.h:54: warning: Member max() (function) of class limits< half > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathHalfLimits.h:55: warning: Member smallest() (function) of class limits< half > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathHalfLimits.h:56: warning: Member epsilon() (function) of class limits< half > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathHalfLimits.h:57: warning: Member isIntegral() (function) of class limits< half > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathHalfLimits.h:58: warning: Member isSigned() (function) of class limits< half > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:180: warning: Member min() (function) of class limits< int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:181: warning: Member max() (function) of class limits< int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:182: warning: Member smallest() (function) of class limits< int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:183: warning: Member epsilon() (function) of class limits< int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:184: warning: Member isIntegral() (function) of class limits< int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:185: warning: Member isSigned() (function) of class limits< int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:200: warning: Member min() (function) of class limits< long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:201: warning: Member max() (function) of class limits< long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:202: warning: Member smallest() (function) of class limits< long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:203: warning: Member epsilon() (function) of class limits< long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:204: warning: Member isIntegral() (function) of class limits< long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:205: warning: Member isSigned() (function) of class limits< long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:240: warning: Member min() (function) of class limits< long double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:241: warning: Member max() (function) of class limits< long double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:242: warning: Member smallest() (function) of class limits< long double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:243: warning: Member epsilon() (function) of class limits< long double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:244: warning: Member isIntegral() (function) of class limits< long double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:245: warning: Member isSigned() (function) of class limits< long double > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:160: warning: Member min() (function) of class limits< short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:161: warning: Member max() (function) of class limits< short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:162: warning: Member smallest() (function) of class limits< short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:163: warning: Member epsilon() (function) of class limits< short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:164: warning: Member isIntegral() (function) of class limits< short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:165: warning: Member isSigned() (function) of class limits< short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:140: warning: Member min() (function) of class limits< signed char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:141: warning: Member max() (function) of class limits< signed char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:142: warning: Member smallest() (function) of class limits< signed char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:143: warning: Member epsilon() (function) of class limits< signed char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:144: warning: Member isIntegral() (function) of class limits< signed char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:145: warning: Member isSigned() (function) of class limits< signed char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:150: warning: Member min() (function) of class limits< unsigned char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:151: warning: Member max() (function) of class limits< unsigned char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:152: warning: Member smallest() (function) of class limits< unsigned char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:153: warning: Member epsilon() (function) of class limits< unsigned char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:154: warning: Member isIntegral() (function) of class limits< unsigned char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:155: warning: Member isSigned() (function) of class limits< unsigned char > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:190: warning: Member min() (function) of class limits< unsigned int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:191: warning: Member max() (function) of class limits< unsigned int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:192: warning: Member smallest() (function) of class limits< unsigned int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:193: warning: Member epsilon() (function) of class limits< unsigned int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:194: warning: Member isIntegral() (function) of class limits< unsigned int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:195: warning: Member isSigned() (function) of class limits< unsigned int > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:210: warning: Member min() (function) of class limits< unsigned long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:211: warning: Member max() (function) of class limits< unsigned long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:212: warning: Member smallest() (function) of class limits< unsigned long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:213: warning: Member epsilon() (function) of class limits< unsigned long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:214: warning: Member isIntegral() (function) of class limits< unsigned long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:215: warning: Member isSigned() (function) of class limits< unsigned long > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:170: warning: Member min() (function) of class limits< unsigned short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:171: warning: Member max() (function) of class limits< unsigned short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:172: warning: Member smallest() (function) of class limits< unsigned short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:173: warning: Member epsilon() (function) of class limits< unsigned short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:174: warning: Member isIntegral() (function) of class limits< unsigned short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLimits.h:175: warning: Member isSigned() (function) of class limits< unsigned short > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:62: warning: Member Line3(const Vec3< T > &point1, const Vec3< T > &point2) (function) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:68: warning: Member set(const Vec3< T > &point1, const Vec3< T > &point2) (function) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:74: warning: Member operator()(T parameter) const (function) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:80: warning: Member distanceTo(const Vec3< T > &point) const (function) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:81: warning: Member distanceTo(const Line3< T > &line) const (function) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:82: warning: Member closestPointTo(const Vec3< T > &point) const (function) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:83: warning: Member closestPointTo(const Line3< T > &line) const (function) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:54: warning: Member pos (variable) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathLine.h:55: warning: Member dir (variable) of class Line3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:90: warning: Member acos(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:91: warning: Member asin(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:92: warning: Member atan(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:93: warning: Member atan2(T x, T y) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:94: warning: Member cos(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:95: warning: Member sin(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:96: warning: Member tan(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:97: warning: Member cosh(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:98: warning: Member sinh(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:99: warning: Member tanh(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:100: warning: Member exp(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:101: warning: Member log(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:102: warning: Member log10(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:103: warning: Member modf(T x, T *iptr) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:110: warning: Member pow(T x, T y) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:111: warning: Member sqrt(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:112: warning: Member ceil(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:113: warning: Member fabs(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:114: warning: Member floor(T x) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:115: warning: Member fmod(T x, T y) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:116: warning: Member hypot(T x, T y) (function) of class Math is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:121: warning: Member acos(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:122: warning: Member asin(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:123: warning: Member atan(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:124: warning: Member atan2(float x, float y) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:125: warning: Member cos(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:126: warning: Member sin(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:127: warning: Member tan(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:128: warning: Member cosh(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:129: warning: Member sinh(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:130: warning: Member tanh(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:131: warning: Member exp(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:132: warning: Member log(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:133: warning: Member log10(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:134: warning: Member modf(float x, float *y) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:135: warning: Member pow(float x, float y) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:136: warning: Member sqrt(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:137: warning: Member ceil(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:138: warning: Member fabs(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:139: warning: Member floor(float x) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:140: warning: Member fmod(float x, float y) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMath.h:142: warning: Member hypot(float x, float y) (function) of class Math< float > is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:288: warning: Member BaseType (typedef) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:289: warning: Member BaseVecType (typedef) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:76: warning: Member operator[](int i) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:77: warning: Member operator[](int i) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:83: warning: Member Matrix22(Uninitialized) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:89: warning: Member Matrix22(T a) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:93: warning: Member Matrix22(const T a[2][2]) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:97: warning: Member Matrix22(T a, T b, T c, T d) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:105: warning: Member Matrix22(const Matrix22 &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:106: warning: Member Matrix22(const Matrix22< S > &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:108: warning: Member operator=(const Matrix22 &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:109: warning: Member operator=(T a) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:121: warning: Member getValue() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:122: warning: Member getValue() const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:124: warning: Member getValue(Matrix22< S > &v) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:125: warning: Member setValue(const Matrix22< S > &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:127: warning: Member setTheMatrix(const Matrix22< S > &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:133: warning: Member makeIdentity() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:139: warning: Member operator==(const Matrix22 &v) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:140: warning: Member operator!=(const Matrix22 &v) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:160: warning: Member equalWithAbsError(const Matrix22< T > &v, T e) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:161: warning: Member equalWithRelError(const Matrix22< T > &v, T e) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:167: warning: Member operator+=(const Matrix22 &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:168: warning: Member operator+=(T a) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:169: warning: Member operator+(const Matrix22 &v) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:175: warning: Member operator-=(const Matrix22 &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:176: warning: Member operator-=(T a) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:177: warning: Member operator-(const Matrix22 &v) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:183: warning: Member operator-() const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:184: warning: Member negate() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:190: warning: Member operator*=(T a) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:191: warning: Member operator*(T a) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:197: warning: Member operator*=(const Matrix22 &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:198: warning: Member operator*(const Matrix22 &v) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:207: warning: Member multDirMatrix(const Vec2< S > &src, Vec2< S > &dst) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:213: warning: Member operator/=(T a) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:214: warning: Member operator/(T a) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:220: warning: Member transpose() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:221: warning: Member transposed() const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:232: warning: Member invert(bool singExc=false) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:234: warning: Member inverse(bool singExc=false) const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:240: warning: Member determinant() const (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:246: warning: Member setRotation(S r) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:252: warning: Member rotate(S r) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:258: warning: Member setScale(T s) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:264: warning: Member setScale(const Vec2< S > &s) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:270: warning: Member scale(const Vec2< S > &s) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1151: warning: Member setValue(const Matrix22< S > &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1171: warning: Member setTheMatrix(const Matrix22< S > &v) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1490: warning: Member setRotation(S r) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1509: warning: Member rotate(S r) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1530: warning: Member setScale(const Vec2< S > &s) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1543: warning: Member scale(const Vec2< S > &s) (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:277: warning: Member dimensions() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:283: warning: Member baseTypeMin() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:284: warning: Member baseTypeMax() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:285: warning: Member baseTypeSmallest() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:286: warning: Member baseTypeEpsilon() (function) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:74: warning: Member x[2][2] (variable) of class Matrix22 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:606: warning: Member BaseType (typedef) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:607: warning: Member BaseVecType (typedef) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:318: warning: Member operator[](int i) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:319: warning: Member operator[](int i) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:325: warning: Member Matrix33(Uninitialized) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:332: warning: Member Matrix33(T a) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:337: warning: Member Matrix33(const T a[3][3]) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:342: warning: Member Matrix33(T a, T b, T c, T d, T e, T f, T g, T h, T i) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:351: warning: Member Matrix33(const Matrix33 &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:352: warning: Member Matrix33(const Matrix33< S > &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:354: warning: Member operator=(const Matrix33 &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:355: warning: Member operator=(T a) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:367: warning: Member getValue() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:368: warning: Member getValue() const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:370: warning: Member getValue(Matrix33< S > &v) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:371: warning: Member setValue(const Matrix33< S > &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:373: warning: Member setTheMatrix(const Matrix33< S > &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:379: warning: Member makeIdentity() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:385: warning: Member operator==(const Matrix33 &v) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:386: warning: Member operator!=(const Matrix33 &v) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:406: warning: Member equalWithAbsError(const Matrix33< T > &v, T e) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:407: warning: Member equalWithRelError(const Matrix33< T > &v, T e) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:413: warning: Member operator+=(const Matrix33 &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:414: warning: Member operator+=(T a) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:415: warning: Member operator+(const Matrix33 &v) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:421: warning: Member operator-=(const Matrix33 &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:422: warning: Member operator-=(T a) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:423: warning: Member operator-(const Matrix33 &v) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:429: warning: Member operator-() const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:430: warning: Member negate() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:436: warning: Member operator*=(T a) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:437: warning: Member operator*(T a) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:443: warning: Member operator*=(const Matrix33 &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:444: warning: Member operator*(const Matrix33 &v) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:458: warning: Member multVecMatrix(const Vec2< S > &src, Vec2< S > &dst) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:460: warning: Member multDirMatrix(const Vec2< S > &src, Vec2< S > &dst) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:466: warning: Member operator/=(T a) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:467: warning: Member operator/(T a) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:473: warning: Member transpose() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:474: warning: Member transposed() const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:490: warning: Member invert(bool singExc=false) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:492: warning: Member inverse(bool singExc=false) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:494: warning: Member gjInvert(bool singExc=false) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:496: warning: Member gjInverse(bool singExc=false) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:502: warning: Member minorOf(const int r, const int c) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:508: warning: Member fastMinor(const int r0, const int r1, const int c0, const int c1) const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:514: warning: Member determinant() const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:520: warning: Member setRotation(S r) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:526: warning: Member rotate(S r) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:532: warning: Member setScale(T s) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:538: warning: Member setScale(const Vec2< S > &s) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:544: warning: Member scale(const Vec2< S > &s) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:550: warning: Member setTranslation(const Vec2< S > &t) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:556: warning: Member translation() const (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:562: warning: Member translate(const Vec2< S > &t) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:568: warning: Member setShear(const S &h) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:575: warning: Member setShear(const Vec2< S > &h) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:581: warning: Member shear(const S &xy) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:588: warning: Member shear(const Vec2< S > &h) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1700: warning: Member setValue(const Matrix33< S > &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:1725: warning: Member setTheMatrix(const Matrix33< S > &v) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2344: warning: Member setRotation(S r) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2369: warning: Member rotate(S r) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2390: warning: Member setScale(const Vec2< S > &s) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2403: warning: Member scale(const Vec2< S > &s) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2419: warning: Member setTranslation(const Vec2< S > &t) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2446: warning: Member translate(const Vec2< S > &t) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2458: warning: Member setShear(const S &xy) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2478: warning: Member setShear(const Vec2< S > &h) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2498: warning: Member shear(const S &xy) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2516: warning: Member shear(const Vec2< S > &h) (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:595: warning: Member dimensions() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:601: warning: Member baseTypeMin() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:602: warning: Member baseTypeMax() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:603: warning: Member baseTypeSmallest() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:604: warning: Member baseTypeEpsilon() (function) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:316: warning: Member x[3][3] (variable) of class Matrix33 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:969: warning: Member BaseType (typedef) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:970: warning: Member BaseVecType (typedef) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:636: warning: Member operator[](int i) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:637: warning: Member operator[](int i) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:643: warning: Member Matrix44(Uninitialized) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:651: warning: Member Matrix44(T a) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:657: warning: Member Matrix44(const T a[4][4]) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:664: warning: Member Matrix44(T a, T b, T c, T d, T e, T f, T g, T h, T i, T j, T k, T l, T m, T n, T o, T p) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:671: warning: Member Matrix44(Matrix33< T > r, Vec3< T > t) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:687: warning: Member Matrix44(const Matrix44 &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:688: warning: Member Matrix44(const Matrix44< S > &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:690: warning: Member operator=(const Matrix44 &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:691: warning: Member operator=(T a) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:697: warning: Member getValue() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:698: warning: Member getValue() const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:700: warning: Member getValue(Matrix44< S > &v) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:701: warning: Member setValue(const Matrix44< S > &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:703: warning: Member setTheMatrix(const Matrix44< S > &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:709: warning: Member makeIdentity() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:715: warning: Member operator==(const Matrix44 &v) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:716: warning: Member operator!=(const Matrix44 &v) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:736: warning: Member equalWithAbsError(const Matrix44< T > &v, T e) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:737: warning: Member equalWithRelError(const Matrix44< T > &v, T e) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:743: warning: Member operator+=(const Matrix44 &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:744: warning: Member operator+=(T a) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:745: warning: Member operator+(const Matrix44 &v) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:751: warning: Member operator-=(const Matrix44 &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:752: warning: Member operator-=(T a) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:753: warning: Member operator-(const Matrix44 &v) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:759: warning: Member operator-() const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:760: warning: Member negate() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:766: warning: Member operator*=(T a) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:767: warning: Member operator*(T a) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:773: warning: Member operator*=(const Matrix44 &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:774: warning: Member operator*(const Matrix44 &v) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:792: warning: Member multVecMatrix(const Vec3< S > &src, Vec3< S > &dst) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:794: warning: Member multDirMatrix(const Vec3< S > &src, Vec3< S > &dst) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:800: warning: Member operator/=(T a) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:801: warning: Member operator/(T a) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:807: warning: Member transpose() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:808: warning: Member transposed() const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:824: warning: Member invert(bool singExc=false) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:826: warning: Member inverse(bool singExc=false) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:828: warning: Member gjInvert(bool singExc=false) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:830: warning: Member gjInverse(bool singExc=false) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:836: warning: Member minorOf(const int r, const int c) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:842: warning: Member fastMinor(const int r0, const int r1, const int r2, const int c0, const int c1, const int c2) const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:853: warning: Member determinant() const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:859: warning: Member setEulerAngles(const Vec3< S > &r) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:865: warning: Member setAxisAngle(const Vec3< S > &ax, S ang) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:871: warning: Member rotate(const Vec3< S > &r) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:877: warning: Member setScale(T s) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:883: warning: Member setScale(const Vec3< S > &s) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:889: warning: Member scale(const Vec3< S > &s) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:895: warning: Member setTranslation(const Vec3< S > &t) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:901: warning: Member translation() const (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:907: warning: Member translate(const Vec3< S > &t) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:916: warning: Member setShear(const Vec3< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:928: warning: Member setShear(const Shear6< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:938: warning: Member shear(const Vec3< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:958: warning: Member shear(const Shear6< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2760: warning: Member setValue(const Matrix44< S > &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:2792: warning: Member setTheMatrix(const Matrix44< S > &v) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3564: warning: Member setEulerAngles(const Vec3< S > &r) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3602: warning: Member setAxisAngle(const Vec3< S > &axis, S angle) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3634: warning: Member rotate(const Vec3< S > &r) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3695: warning: Member setScale(const Vec3< S > &s) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3709: warning: Member scale(const Vec3< S > &s) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3732: warning: Member setTranslation(const Vec3< S > &t) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3767: warning: Member translate(const Vec3< S > &t) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3780: warning: Member setShear(const Vec3< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3808: warning: Member setShear(const Shear6< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3836: warning: Member shear(const Vec3< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:3856: warning: Member shear(const Shear6< S > &h) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:776: warning: Member multiply(const Matrix44 &a, const Matrix44 &b, Matrix44 &c) (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:945: warning: Member dimensions() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:964: warning: Member baseTypeMin() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:965: warning: Member baseTypeMax() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:966: warning: Member baseTypeSmallest() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:967: warning: Member baseTypeEpsilon() (function) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathMatrix.h:634: warning: Member x[4][4] (variable) of class Matrix44 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:66: warning: Member Plane3(const Vec3< T > &normal, T distance) (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:67: warning: Member Plane3(const Vec3< T > &point, const Vec3< T > &normal) (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:68: warning: Member Plane3(const Vec3< T > &point1, const Vec3< T > &point2, const Vec3< T > &point3) (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:74: warning: Member set(const Vec3< T > &normal, T distance) (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:76: warning: Member set(const Vec3< T > &point, const Vec3< T > &normal) (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:78: warning: Member set(const Vec3< T > &point1, const Vec3< T > &point2, const Vec3< T > &point3) (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:84: warning: Member intersect(const Line3< T > &line, Vec3< T > &intersection) const (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:86: warning: Member intersectT(const Line3< T > &line, T &parameter) const (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:88: warning: Member distanceTo(const Vec3< T > &) const (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:90: warning: Member reflectPoint(const Vec3< T > &) const (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:91: warning: Member reflectVector(const Vec3< T > &) const (function) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:62: warning: Member normal (variable) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathPlane.h:63: warning: Member distance (variable) of class Plane3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:80: warning: Member Quat(const Quat< S > &q) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:82: warning: Member Quat(T s, T i, T j, T k) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:84: warning: Member Quat(T s, Vec3< T > d) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:92: warning: Member Quat(const Quat &q) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:116: warning: Member operator=(const Quat< T > &q) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:117: warning: Member operator*=(const Quat< T > &q) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:118: warning: Member operator*=(T t) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:119: warning: Member operator/=(const Quat< T > &q) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:120: warning: Member operator/=(T t) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:121: warning: Member operator+=(const Quat< T > &q) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:122: warning: Member operator-=(const Quat< T > &q) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:123: warning: Member operator[](int index) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:124: warning: Member operator[](int index) const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:126: warning: Member operator==(const Quat< S > &q) const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:127: warning: Member operator!=(const Quat< S > &q) const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:129: warning: Member invert() (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:130: warning: Member inverse() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:131: warning: Member normalize() (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:132: warning: Member normalized() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:133: warning: Member length() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:134: warning: Member rotateVector(const Vec3< T > &original) const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:135: warning: Member euclideanInnerProduct(const Quat< T > &q) const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:141: warning: Member setAxisAngle(const Vec3< T > &axis, T radians) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:144: warning: Member setRotation(const Vec3< T > &fromDirection, const Vec3< T > &toDirection) (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:146: warning: Member angle() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:147: warning: Member axis() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:149: warning: Member toMatrix33() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:150: warning: Member toMatrix44() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:151: warning: Member log() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:152: warning: Member exp() const (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:86: warning: Member identity() (function) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:71: warning: Member r (variable) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathQuat.h:72: warning: Member v (variable) of class Quat is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:79: warning: Member Rand32(unsigned long int seed=0) (function) of class Rand32 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:85: warning: Member init(unsigned long int seed) (function) of class Rand32 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:91: warning: Member nextb() (function) of class Rand32 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:97: warning: Member nexti() (function) of class Rand32 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:103: warning: Member nextf() (function) of class Rand32 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:109: warning: Member nextf(float rangeMin, float rangeMax) (function) of class Rand32 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:130: warning: Member Rand48(unsigned long int seed=0) (function) of class Rand48 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:136: warning: Member init(unsigned long int seed) (function) of class Rand48 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:142: warning: Member nextb() (function) of class Rand48 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:148: warning: Member nexti() (function) of class Rand48 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:154: warning: Member nextf() (function) of class Rand48 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathRandom.h:160: warning: Member nextf(double rangeMin, double rangeMax) (function) of class Rand48 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:199: warning: Member BaseType (typedef) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:61: warning: Member operator[](int i) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:62: warning: Member operator[](int i) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:69: warning: Member Shear6(T XY, T XZ, T YZ) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:70: warning: Member Shear6(const Vec3< T > &v) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:71: warning: Member Shear6(const Vec3< S > &v) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:72: warning: Member Shear6(T XY, T XZ, T YZ, T YX, T ZX, T ZY) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:83: warning: Member Shear6(const Shear6 &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:84: warning: Member Shear6(const Shear6< S > &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:86: warning: Member operator=(const Shear6 &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:87: warning: Member operator=(const Vec3< S > &v) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:99: warning: Member setValue(S XY, S XZ, S YZ, S YX, S ZX, S ZY) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:101: warning: Member setValue(const Shear6< S > &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:103: warning: Member getValue(S &XY, S &XZ, S &YZ, S &YX, S &ZX, S &ZY) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:105: warning: Member getValue(Shear6< S > &h) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:107: warning: Member getValue() (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:108: warning: Member getValue() const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:114: warning: Member operator==(const Shear6< S > &h) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:116: warning: Member operator!=(const Shear6< S > &h) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:136: warning: Member equalWithAbsError(const Shear6< T > &h, T e) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:137: warning: Member equalWithRelError(const Shear6< T > &h, T e) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:143: warning: Member operator+=(const Shear6 &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:144: warning: Member operator+(const Shear6 &h) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:150: warning: Member operator-=(const Shear6 &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:151: warning: Member operator-(const Shear6 &h) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:157: warning: Member operator-() const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:158: warning: Member negate() (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:164: warning: Member operator*=(const Shear6 &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:165: warning: Member operator*=(T a) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:166: warning: Member operator*(const Shear6 &h) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:167: warning: Member operator*(T a) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:173: warning: Member operator/=(const Shear6 &h) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:174: warning: Member operator/=(T a) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:175: warning: Member operator/(const Shear6 &h) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:176: warning: Member operator/(T a) const (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:324: warning: Member operator=(const Vec3< S > &v) (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:182: warning: Member dimensions() (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:188: warning: Member baseTypeMin() (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:189: warning: Member baseTypeMax() (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:190: warning: Member baseTypeSmallest() (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:191: warning: Member baseTypeEpsilon() (function) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:59: warning: Member xy (variable) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:59: warning: Member xz (variable) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:59: warning: Member yz (variable) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:59: warning: Member yx (variable) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:59: warning: Member zx (variable) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathShear.h:59: warning: Member zy (variable) of class Shear6 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathSphere.h:62: warning: Member Sphere3(const Vec3< T > &c, T r) (function) of class Sphere3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathSphere.h:87: warning: Member circumscribe(const Box< Vec3< T >> &box) (function) of class Sphere3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathSphere.h:88: warning: Member intersect(const Line3< T > &l, Vec3< T > &intersection) const (function) of class Sphere3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathSphere.h:89: warning: Member intersectT(const Line3< T > &l, T &t) const (function) of class Sphere3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathSphere.h:54: warning: Member center (variable) of class Sphere3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathSphere.h:55: warning: Member radius (variable) of class Sphere3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:241: warning: Member BaseType (typedef) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:76: warning: Member operator[](int i) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:77: warning: Member operator[](int i) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:84: warning: Member Vec2(T a) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:85: warning: Member Vec2(T a, T b) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:91: warning: Member Vec2(const Vec2 &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:92: warning: Member Vec2(const Vec2< S > &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:94: warning: Member operator=(const Vec2 &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:106: warning: Member setValue(S a, S b) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:108: warning: Member setValue(const Vec2< S > &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:110: warning: Member getValue(S &a, S &b) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:112: warning: Member getValue(Vec2< S > &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:114: warning: Member getValue() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:115: warning: Member getValue() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:121: warning: Member operator==(const Vec2< S > &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:123: warning: Member operator!=(const Vec2< S > &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:143: warning: Member equalWithAbsError(const Vec2< T > &v, T e) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:144: warning: Member equalWithRelError(const Vec2< T > &v, T e) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:150: warning: Member dot(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:151: warning: Member operator^(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:158: warning: Member cross(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:159: warning: Member operator%(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:165: warning: Member operator+=(const Vec2 &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:166: warning: Member operator+(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:172: warning: Member operator-=(const Vec2 &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:173: warning: Member operator-(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:179: warning: Member operator-() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:180: warning: Member negate() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:186: warning: Member operator*=(const Vec2 &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:187: warning: Member operator*=(T a) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:188: warning: Member operator*(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:189: warning: Member operator*(T a) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:195: warning: Member operator/=(const Vec2 &v) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:196: warning: Member operator/=(T a) (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:197: warning: Member operator/(const Vec2 &v) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:198: warning: Member operator/(T a) const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:209: warning: Member length() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:210: warning: Member length2() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:212: warning: Member normalize() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:213: warning: Member normalizeExc() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:214: warning: Member normalizeNonNull() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:216: warning: Member normalized() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:217: warning: Member normalizedExc() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:218: warning: Member normalizedNonNull() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:126: warning: Member length() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:135: warning: Member normalize() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:143: warning: Member normalizeExc() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:154: warning: Member normalizeNonNull() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:162: warning: Member normalized() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:171: warning: Member normalizedExc() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:183: warning: Member normalizedNonNull() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:194: warning: Member length() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:203: warning: Member normalize() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:211: warning: Member normalizeExc() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:222: warning: Member normalizeNonNull() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:230: warning: Member normalized() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:239: warning: Member normalizedExc() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:251: warning: Member normalizedNonNull() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:650: warning: Member length() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:652: warning: Member normalize() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:654: warning: Member normalizeExc() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:656: warning: Member normalizeNonNull() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:658: warning: Member normalized() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:660: warning: Member normalizedExc() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:662: warning: Member normalizedNonNull() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:666: warning: Member length() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:668: warning: Member normalize() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:670: warning: Member normalizeExc() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:672: warning: Member normalizeNonNull() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:674: warning: Member normalized() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:676: warning: Member normalizedExc() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:678: warning: Member normalizedNonNull() const (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:224: warning: Member dimensions() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:230: warning: Member baseTypeMin() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:231: warning: Member baseTypeMax() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:232: warning: Member baseTypeSmallest() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:233: warning: Member baseTypeEpsilon() (function) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:74: warning: Member x (variable) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:74: warning: Member y (variable) of class Vec2 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:436: warning: Member BaseType (typedef) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:256: warning: Member operator[](int i) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:257: warning: Member operator[](int i) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:264: warning: Member Vec3(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:265: warning: Member Vec3(T a, T b, T c) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:271: warning: Member Vec3(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:272: warning: Member Vec3(const Vec3< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:274: warning: Member operator=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:293: warning: Member Vec3(const Vec4< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:294: warning: Member Vec3(const Vec4< S > &v, InfException) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:300: warning: Member setValue(S a, S b, S c) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:302: warning: Member setValue(const Vec3< S > &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:304: warning: Member getValue(S &a, S &b, S &c) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:306: warning: Member getValue(Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:308: warning: Member getValue() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:309: warning: Member getValue() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:315: warning: Member operator==(const Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:317: warning: Member operator!=(const Vec3< S > &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:337: warning: Member equalWithAbsError(const Vec3< T > &v, T e) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:338: warning: Member equalWithRelError(const Vec3< T > &v, T e) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:344: warning: Member dot(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:345: warning: Member operator^(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:351: warning: Member cross(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:352: warning: Member operator%=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:353: warning: Member operator%(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:359: warning: Member operator+=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:360: warning: Member operator+(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:366: warning: Member operator-=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:367: warning: Member operator-(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:373: warning: Member operator-() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:374: warning: Member negate() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:380: warning: Member operator*=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:381: warning: Member operator*=(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:382: warning: Member operator*(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:383: warning: Member operator*(T a) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:389: warning: Member operator/=(const Vec3 &v) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:390: warning: Member operator/=(T a) (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:391: warning: Member operator/(const Vec3 &v) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:392: warning: Member operator/(T a) const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:404: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:405: warning: Member length2() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:407: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:408: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:409: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:411: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:412: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:413: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:262: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:271: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:279: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:290: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:298: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:307: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:319: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:330: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:339: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:347: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:358: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:366: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:375: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:387: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:682: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:684: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:686: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:688: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:690: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:692: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:694: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:698: warning: Member length() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:700: warning: Member normalize() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:702: warning: Member normalizeExc() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:704: warning: Member normalizeNonNull() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:706: warning: Member normalized() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:708: warning: Member normalizedExc() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:710: warning: Member normalizedNonNull() const (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:419: warning: Member dimensions() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:425: warning: Member baseTypeMin() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:426: warning: Member baseTypeMax() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:427: warning: Member baseTypeSmallest() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:428: warning: Member baseTypeEpsilon() (function) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member x (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member y (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:254: warning: Member z (variable) of class Vec3 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:603: warning: Member BaseType (typedef) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:451: warning: Member operator[](int i) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:452: warning: Member operator[](int i) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:459: warning: Member Vec4(T a) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:460: warning: Member Vec4(T a, T b, T c, T d) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:466: warning: Member Vec4(const Vec4 &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:467: warning: Member Vec4(const Vec4< S > &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:469: warning: Member operator=(const Vec4 &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:481: warning: Member Vec4(const Vec3< S > &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:487: warning: Member operator==(const Vec4< S > &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:489: warning: Member operator!=(const Vec4< S > &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:509: warning: Member equalWithAbsError(const Vec4< T > &v, T e) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:510: warning: Member equalWithRelError(const Vec4< T > &v, T e) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:516: warning: Member dot(const Vec4 &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:517: warning: Member operator^(const Vec4 &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:527: warning: Member operator+=(const Vec4 &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:528: warning: Member operator+(const Vec4 &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:534: warning: Member operator-=(const Vec4 &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:535: warning: Member operator-(const Vec4 &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:541: warning: Member operator-() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:542: warning: Member negate() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:548: warning: Member operator*=(const Vec4 &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:549: warning: Member operator*=(T a) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:550: warning: Member operator*(const Vec4 &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:551: warning: Member operator*(T a) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:557: warning: Member operator/=(const Vec4 &v) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:558: warning: Member operator/=(T a) (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:559: warning: Member operator/(const Vec4 &v) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:560: warning: Member operator/(T a) const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:571: warning: Member length() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:572: warning: Member length2() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:574: warning: Member normalize() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:575: warning: Member normalizeExc() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:576: warning: Member normalizeNonNull() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:578: warning: Member normalized() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:579: warning: Member normalizedExc() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:580: warning: Member normalizedNonNull() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:398: warning: Member length() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:407: warning: Member normalize() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:415: warning: Member normalizeExc() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:426: warning: Member normalizeNonNull() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:434: warning: Member normalized() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:443: warning: Member normalizedExc() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:455: warning: Member normalizedNonNull() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:466: warning: Member length() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:475: warning: Member normalize() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:483: warning: Member normalizeExc() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:494: warning: Member normalizeNonNull() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:502: warning: Member normalized() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:511: warning: Member normalizedExc() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.cpp:523: warning: Member normalizedNonNull() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:714: warning: Member length() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:716: warning: Member normalize() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:718: warning: Member normalizeExc() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:720: warning: Member normalizeNonNull() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:722: warning: Member normalized() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:724: warning: Member normalizedExc() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:726: warning: Member normalizedNonNull() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:730: warning: Member length() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:732: warning: Member normalize() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:734: warning: Member normalizeExc() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:736: warning: Member normalizeNonNull() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:738: warning: Member normalized() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:740: warning: Member normalizedExc() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:742: warning: Member normalizedNonNull() const (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:586: warning: Member dimensions() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:592: warning: Member baseTypeMin() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:593: warning: Member baseTypeMax() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:594: warning: Member baseTypeSmallest() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:595: warning: Member baseTypeEpsilon() (function) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:449: warning: Member x (variable) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:449: warning: Member y (variable) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:449: warning: Member z (variable) of class Vec4 is not documented.
+/Users/cary/src/cary-ilm/Imath/Imath/ImathVec.h:449: warning: Member w (variable) of class Vec4 is not documented.

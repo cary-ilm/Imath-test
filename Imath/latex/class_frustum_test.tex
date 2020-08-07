@@ -1,0 +1,68 @@
+\hypertarget{class_frustum_test}{}\doxysection{Frustum\+Test$<$ T $>$ Class Template Reference}
+\label{class_frustum_test}\index{FrustumTest$<$ T $>$@{FrustumTest$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_frustum_test_a4a546c88e1a665723eba92bec9c87d9b}\label{class_frustum_test_a4a546c88e1a665723eba92bec9c87d9b}} 
+{\bfseries Frustum\+Test} (const \mbox{\hyperlink{class_frustum}{Frustum}}$<$ T $>$ \&frustum, const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \&camera\+Mat)
+\item 
+\mbox{\Hypertarget{class_frustum_test_a7033c50d4d0501be499b43c204e11074}\label{class_frustum_test_a7033c50d4d0501be499b43c204e11074}} 
+void {\bfseries set\+Frustum} (const \mbox{\hyperlink{class_frustum}{Frustum}}$<$ T $>$ \&frustum, const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \&camera\+Mat)
+\item 
+\mbox{\Hypertarget{class_frustum_test_a0722fd7497365021df232797984845fa}\label{class_frustum_test_a0722fd7497365021df232797984845fa}} 
+bool {\bfseries is\+Visible} (const \mbox{\hyperlink{class_sphere3}{Sphere3}}$<$ T $>$ \&sphere) const
+\item 
+\mbox{\Hypertarget{class_frustum_test_a44073b5fa7354ceb04eb60c18d4d38ac}\label{class_frustum_test_a44073b5fa7354ceb04eb60c18d4d38ac}} 
+bool {\bfseries is\+Visible} (const \mbox{\hyperlink{class_box}{Box}}$<$ \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$$>$ \&box) const
+\item 
+\mbox{\Hypertarget{class_frustum_test_a42ba1ee1b8484b6f05178a2a7ca9f673}\label{class_frustum_test_a42ba1ee1b8484b6f05178a2a7ca9f673}} 
+bool {\bfseries is\+Visible} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&vec) const
+\item 
+\mbox{\Hypertarget{class_frustum_test_a44eca401b8d359e67f06c7fc1c22a0b4}\label{class_frustum_test_a44eca401b8d359e67f06c7fc1c22a0b4}} 
+bool {\bfseries completely\+Contains} (const \mbox{\hyperlink{class_sphere3}{Sphere3}}$<$ T $>$ \&sphere) const
+\item 
+\mbox{\Hypertarget{class_frustum_test_ab38ff01cb4afb7cb066df7298aeb8606}\label{class_frustum_test_ab38ff01cb4afb7cb066df7298aeb8606}} 
+bool {\bfseries completely\+Contains} (const \mbox{\hyperlink{class_box}{Box}}$<$ \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$$>$ \&box) const
+\item 
+\mbox{\Hypertarget{class_frustum_test_abfe71472772ccb6f68cf4a6fb47328ea}\label{class_frustum_test_abfe71472772ccb6f68cf4a6fb47328ea}} 
+I\+M\+A\+T\+H\+\_\+\+I\+N\+T\+E\+R\+N\+A\+L\+\_\+\+N\+A\+M\+E\+S\+P\+A\+C\+E\+::\+Matrix44$<$ T $>$ {\bfseries camera\+Mat} () const
+\item 
+\mbox{\Hypertarget{class_frustum_test_aaeca7591b66c718208838e7c3fd4f866}\label{class_frustum_test_aaeca7591b66c718208838e7c3fd4f866}} 
+I\+M\+A\+T\+H\+\_\+\+I\+N\+T\+E\+R\+N\+A\+L\+\_\+\+N\+A\+M\+E\+S\+P\+A\+C\+E\+::\+Frustum$<$ T $>$ {\bfseries current\+Frustum} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_frustum_test_acb5169596b6d435ba39dbdf9a5c4509d}\label{class_frustum_test_acb5169596b6d435ba39dbdf9a5c4509d}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries plane\+NormX} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{class_frustum_test_ac92d102d5094d8dcc38e598138446374}\label{class_frustum_test_ac92d102d5094d8dcc38e598138446374}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries plane\+NormY} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{class_frustum_test_a270adcf3f476314afc39f5f10ca65718}\label{class_frustum_test_a270adcf3f476314afc39f5f10ca65718}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries plane\+NormZ} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{class_frustum_test_aa316f0e1af6652818b40f9bc8a2eaf42}\label{class_frustum_test_aa316f0e1af6652818b40f9bc8a2eaf42}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries plane\+Offset\+Vec} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{class_frustum_test_ab13bd9de577d1eb28a1336fef347d03b}\label{class_frustum_test_ab13bd9de577d1eb28a1336fef347d03b}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries plane\+Norm\+AbsX} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{class_frustum_test_aa8388c07894616da346581b1cae8c0f7}\label{class_frustum_test_aa8388c07894616da346581b1cae8c0f7}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries plane\+Norm\+AbsY} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{class_frustum_test_afcc7cfaaf0b70a48d53abcb9fc354ad8}\label{class_frustum_test_afcc7cfaaf0b70a48d53abcb9fc354ad8}} 
+\mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ {\bfseries plane\+Norm\+AbsZ} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{class_frustum_test_a0671aae936bf5a67465b2af49db1ce21}\label{class_frustum_test_a0671aae936bf5a67465b2af49db1ce21}} 
+\mbox{\hyperlink{class_frustum}{Frustum}}$<$ T $>$ {\bfseries curr\+Frustum}
+\item 
+\mbox{\Hypertarget{class_frustum_test_acb643cd75d5491cafdfe08828c7e47d1}\label{class_frustum_test_acb643cd75d5491cafdfe08828c7e47d1}} 
+\mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ {\bfseries camera\+Matrix}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Imath\+Forward.\+h\item 
+Imath\+Frustum\+Test.\+h\end{DoxyCompactItemize}

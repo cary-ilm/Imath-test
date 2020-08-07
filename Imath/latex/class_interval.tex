@@ -1,0 +1,56 @@
+\hypertarget{class_interval}{}\doxysection{Interval$<$ T $>$ Class Template Reference}
+\label{class_interval}\index{Interval$<$ T $>$@{Interval$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_interval_a2b3d99cc7132b772d144a0e24584e31c}\label{class_interval_a2b3d99cc7132b772d144a0e24584e31c}} 
+constexpr {\bfseries Interval} (const T \&point)
+\item 
+\mbox{\Hypertarget{class_interval_a2a4bc066a87cfdb2e7fa711113508c98}\label{class_interval_a2a4bc066a87cfdb2e7fa711113508c98}} 
+constexpr {\bfseries Interval} (const T \&minT, const T \&maxT)
+\item 
+\mbox{\Hypertarget{class_interval_a0e7dfc5a5ea64dbe01fa291318a760d0}\label{class_interval_a0e7dfc5a5ea64dbe01fa291318a760d0}} 
+constexpr bool {\bfseries operator==} (const \mbox{\hyperlink{class_interval}{Interval}}$<$ T $>$ \&src) const
+\item 
+\mbox{\Hypertarget{class_interval_ad0d1a33d9b0efc2c1bb2fb81f20475a5}\label{class_interval_ad0d1a33d9b0efc2c1bb2fb81f20475a5}} 
+void {\bfseries make\+Empty} ()
+\item 
+\mbox{\Hypertarget{class_interval_aa1ae142b817d3748ff075867df7ee574}\label{class_interval_aa1ae142b817d3748ff075867df7ee574}} 
+void {\bfseries extend\+By} (const T \&point)
+\item 
+\mbox{\Hypertarget{class_interval_afc480f1c975cd68067c723c1ffc7a8b9}\label{class_interval_afc480f1c975cd68067c723c1ffc7a8b9}} 
+void {\bfseries extend\+By} (const \mbox{\hyperlink{class_interval}{Interval}}$<$ T $>$ \&interval)
+\item 
+\mbox{\Hypertarget{class_interval_a36268d46e34b25da0dee26dd91857e18}\label{class_interval_a36268d46e34b25da0dee26dd91857e18}} 
+constexpr T {\bfseries size} () const
+\item 
+\mbox{\Hypertarget{class_interval_a549310611713c392a4edda96fa78d467}\label{class_interval_a549310611713c392a4edda96fa78d467}} 
+constexpr T {\bfseries center} () const
+\item 
+\mbox{\Hypertarget{class_interval_a4ec3b81a678c0217c7fefa2ed7f51bb0}\label{class_interval_a4ec3b81a678c0217c7fefa2ed7f51bb0}} 
+constexpr bool {\bfseries intersects} (const T \&point) const
+\item 
+\mbox{\Hypertarget{class_interval_a9615b553386551e81b814c20b78eff73}\label{class_interval_a9615b553386551e81b814c20b78eff73}} 
+constexpr bool {\bfseries intersects} (const \mbox{\hyperlink{class_interval}{Interval}}$<$ T $>$ \&interval) const
+\item 
+\mbox{\Hypertarget{class_interval_a8fba9f50bb6a0273ede69438cfeae91d}\label{class_interval_a8fba9f50bb6a0273ede69438cfeae91d}} 
+constexpr bool {\bfseries has\+Volume} () const
+\item 
+\mbox{\Hypertarget{class_interval_a0cf2df8bc65cf358864375c1e62bb0e4}\label{class_interval_a0cf2df8bc65cf358864375c1e62bb0e4}} 
+constexpr bool {\bfseries is\+Empty} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_interval_a3ddad76591793d6c7627aa60416c6a93}\label{class_interval_a3ddad76591793d6c7627aa60416c6a93}} 
+T {\bfseries min}
+\item 
+\mbox{\Hypertarget{class_interval_a200768ebed6e94047d6b8ceb778881ff}\label{class_interval_a200768ebed6e94047d6b8ceb778881ff}} 
+T {\bfseries max}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Imath\+Forward.\+h\item 
+Imath\+Interval.\+h\end{DoxyCompactItemize}

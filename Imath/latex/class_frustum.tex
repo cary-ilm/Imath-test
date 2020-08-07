@@ -1,0 +1,146 @@
+\hypertarget{class_frustum}{}\doxysection{Frustum$<$ T $>$ Class Template Reference}
+\label{class_frustum}\index{Frustum$<$ T $>$@{Frustum$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_frustum_a7bd03dc0cb5dae37561e40f2de7ec23d}\label{class_frustum_a7bd03dc0cb5dae37561e40f2de7ec23d}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Frustum} (const \mbox{\hyperlink{class_frustum}{Frustum}} \&)
+\item 
+\mbox{\Hypertarget{class_frustum_a066f754659743dca4e605a213225f3a4}\label{class_frustum_a066f754659743dca4e605a213225f3a4}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Frustum} (T near\+Plane, T far\+Plane, T left, T right, T top, T bottom, bool ortho=false)
+\item 
+\mbox{\Hypertarget{class_frustum_a2d4dc23decb6bf5d26e8b2f5f2d494c8}\label{class_frustum_a2d4dc23decb6bf5d26e8b2f5f2d494c8}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 {\bfseries Frustum} (T near\+Plane, T far\+Plane, T fovx, T fovy, T aspect)
+\item 
+\mbox{\Hypertarget{class_frustum_a8e656315f0bdcc69d499f3054643b2b0}\label{class_frustum_a8e656315f0bdcc69d499f3054643b2b0}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 const \mbox{\hyperlink{class_frustum}{Frustum}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_frustum}{Frustum}} \&)
+\item 
+\mbox{\Hypertarget{class_frustum_ad07ea58986b1981dccd026a816299060}\label{class_frustum_ad07ea58986b1981dccd026a816299060}} 
+constexpr bool {\bfseries operator==} (const \mbox{\hyperlink{class_frustum}{Frustum}}$<$ T $>$ \&src) const
+\item 
+\mbox{\Hypertarget{class_frustum_aed9438ec858d7a12fd711ff329989137}\label{class_frustum_aed9438ec858d7a12fd711ff329989137}} 
+constexpr bool {\bfseries operator!=} (const \mbox{\hyperlink{class_frustum}{Frustum}}$<$ T $>$ \&src) const
+\item 
+\mbox{\Hypertarget{class_frustum_a898086e1320793ed131dca66bda5637a}\label{class_frustum_a898086e1320793ed131dca66bda5637a}} 
+void {\bfseries set} (T near\+Plane, T far\+Plane, T left, T right, T top, T bottom, bool ortho=false)
+\item 
+\mbox{\Hypertarget{class_frustum_a98fe220895fdbf8e5b60f130c65243d0}\label{class_frustum_a98fe220895fdbf8e5b60f130c65243d0}} 
+void {\bfseries set} (T near\+Plane, T far\+Plane, T fovx, T fovy, T aspect)
+\item 
+\mbox{\Hypertarget{class_frustum_a725bb3fcc6cb8323191dd0f827b2277a}\label{class_frustum_a725bb3fcc6cb8323191dd0f827b2277a}} 
+void {\bfseries modify\+Near\+And\+Far} (T near\+Plane, T far\+Plane)
+\item 
+\mbox{\Hypertarget{class_frustum_a82b5ea019eb9b76c811bad97baa43443}\label{class_frustum_a82b5ea019eb9b76c811bad97baa43443}} 
+void {\bfseries set\+Orthographic} (bool)
+\item 
+\mbox{\Hypertarget{class_frustum_a2fbc811cdb273b2142082919c17af597}\label{class_frustum_a2fbc811cdb273b2142082919c17af597}} 
+constexpr bool {\bfseries orthographic} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a9655016108c4f257330c3a939dde76a1}\label{class_frustum_a9655016108c4f257330c3a939dde76a1}} 
+constexpr T {\bfseries near\+Plane} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a8981ccfe1df66c51da356f61a409a41a}\label{class_frustum_a8981ccfe1df66c51da356f61a409a41a}} 
+constexpr T {\bfseries hither} () const
+\item 
+\mbox{\Hypertarget{class_frustum_ad1616afc5628dbb17d7c42603cd03892}\label{class_frustum_ad1616afc5628dbb17d7c42603cd03892}} 
+constexpr T {\bfseries far\+Plane} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a6d8af226d2571d0cad3f310703cddc58}\label{class_frustum_a6d8af226d2571d0cad3f310703cddc58}} 
+constexpr T {\bfseries yon} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a3a59dfe9da431d52815c385aeab842d9}\label{class_frustum_a3a59dfe9da431d52815c385aeab842d9}} 
+constexpr T {\bfseries left} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a45f3d057241416b7ecf3e1714cdb8ac3}\label{class_frustum_a45f3d057241416b7ecf3e1714cdb8ac3}} 
+constexpr T {\bfseries right} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a2fec209c4a94b1737114774f08e240fb}\label{class_frustum_a2fec209c4a94b1737114774f08e240fb}} 
+constexpr T {\bfseries bottom} () const
+\item 
+\mbox{\Hypertarget{class_frustum_aefa3637bd804ef648feeefced5a79f62}\label{class_frustum_aefa3637bd804ef648feeefced5a79f62}} 
+constexpr T {\bfseries top} () const
+\item 
+\mbox{\Hypertarget{class_frustum_acb19b8f415b180b2d5b6d116798d6592}\label{class_frustum_acb19b8f415b180b2d5b6d116798d6592}} 
+void {\bfseries planes} (\mbox{\hyperlink{class_plane3}{Plane3}}$<$ T $>$ p\mbox{[}6\mbox{]}) const
+\item 
+\mbox{\Hypertarget{class_frustum_abb03e51d1fa89c2741fc45e02a6da847}\label{class_frustum_abb03e51d1fa89c2741fc45e02a6da847}} 
+void {\bfseries planes} (\mbox{\hyperlink{class_plane3}{Plane3}}$<$ T $>$ p\mbox{[}6\mbox{]}, const \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ \&M) const
+\item 
+\mbox{\Hypertarget{class_frustum_acdb723b78e3b59dbccd47061c30a8f03}\label{class_frustum_acdb723b78e3b59dbccd47061c30a8f03}} 
+constexpr T {\bfseries fovx} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a901cc349fb31239e1de60b9bc2e638b9}\label{class_frustum_a901cc349fb31239e1de60b9bc2e638b9}} 
+constexpr T {\bfseries fovy} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a25bd1e813db04b1915b3ea8071f090cf}\label{class_frustum_a25bd1e813db04b1915b3ea8071f090cf}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T {\bfseries aspect} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a98b09c22ce39948228a6ccf18ea3dd17}\label{class_frustum_a98b09c22ce39948228a6ccf18ea3dd17}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_matrix44}{Matrix44}}$<$ T $>$ {\bfseries projection\+Matrix} () const
+\item 
+\mbox{\Hypertarget{class_frustum_ac44e0a26fac76aa2a3c045c427906d73}\label{class_frustum_ac44e0a26fac76aa2a3c045c427906d73}} 
+constexpr bool {\bfseries degenerate} () const
+\item 
+\mbox{\Hypertarget{class_frustum_a4c0f68b0577913dbd699fab7d3fbaa30}\label{class_frustum_a4c0f68b0577913dbd699fab7d3fbaa30}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_frustum}{Frustum}}$<$ T $>$ {\bfseries window} (T left, T right, T top, T bottom) const
+\item 
+\mbox{\Hypertarget{class_frustum_a9b2f8c1daf764ff8ff905912ed4dced2}\label{class_frustum_a9b2f8c1daf764ff8ff905912ed4dced2}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_line3}{Line3}}$<$ T $>$ {\bfseries project\+Screen\+To\+Ray} (const \mbox{\hyperlink{class_vec2}{Vec2}}$<$ T $>$ \&) const
+\item 
+\mbox{\Hypertarget{class_frustum_a35559465dbf3bced64a130ee7f3a2703}\label{class_frustum_a35559465dbf3bced64a130ee7f3a2703}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_vec2}{Vec2}}$<$ T $>$ {\bfseries project\+Point\+To\+Screen} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&) const
+\item 
+\mbox{\Hypertarget{class_frustum_aacb500b2c6ddbb78b519a0dcf98921d6}\label{class_frustum_aacb500b2c6ddbb78b519a0dcf98921d6}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T {\bfseries Z\+To\+Depth} (long zval, long min, long max) const
+\item 
+\mbox{\Hypertarget{class_frustum_aa3e654cb5728081dba45cc1c25d15706}\label{class_frustum_aa3e654cb5728081dba45cc1c25d15706}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T {\bfseries normalized\+Z\+To\+Depth} (T zval) const
+\item 
+\mbox{\Hypertarget{class_frustum_aa89096306bf6b0fc4e8e429f30e3bd37}\label{class_frustum_aa89096306bf6b0fc4e8e429f30e3bd37}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 long {\bfseries Depth\+ToZ} (T depth, long zmin, long zmax) const
+\item 
+\mbox{\Hypertarget{class_frustum_a63b8a067f38f6c65469d8ea61c28072b}\label{class_frustum_a63b8a067f38f6c65469d8ea61c28072b}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T {\bfseries world\+Radius} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&p, T radius) const
+\item 
+\mbox{\Hypertarget{class_frustum_a75217a1cbb8f89253a7ffacd177f2a19}\label{class_frustum_a75217a1cbb8f89253a7ffacd177f2a19}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 T {\bfseries screen\+Radius} (const \mbox{\hyperlink{class_vec3}{Vec3}}$<$ T $>$ \&p, T radius) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_frustum_abbc0d6a75b2e23c790958b9cbd093646}\label{class_frustum_abbc0d6a75b2e23c790958b9cbd093646}} 
+constexpr \mbox{\hyperlink{class_vec2}{Vec2}}$<$ T $>$ {\bfseries screen\+To\+Local} (const \mbox{\hyperlink{class_vec2}{Vec2}}$<$ T $>$ \&) const
+\item 
+\mbox{\Hypertarget{class_frustum_a31fc18b1b21f4b0718cb2755abcbed8d}\label{class_frustum_a31fc18b1b21f4b0718cb2755abcbed8d}} 
+I\+M\+A\+T\+H\+\_\+\+C\+O\+N\+S\+T\+E\+X\+P\+R14 \mbox{\hyperlink{class_vec2}{Vec2}}$<$ T $>$ {\bfseries local\+To\+Screen} (const \mbox{\hyperlink{class_vec2}{Vec2}}$<$ T $>$ \&) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_frustum_a3efe0600eaed4b0b1b65d85631555af3}\label{class_frustum_a3efe0600eaed4b0b1b65d85631555af3}} 
+T {\bfseries \+\_\+near\+Plane}
+\item 
+\mbox{\Hypertarget{class_frustum_ab84022d570d82eaae612854ee5fd6fd9}\label{class_frustum_ab84022d570d82eaae612854ee5fd6fd9}} 
+T {\bfseries \+\_\+far\+Plane}
+\item 
+\mbox{\Hypertarget{class_frustum_a1c228bc9508f2eec2fbd1323105a7e91}\label{class_frustum_a1c228bc9508f2eec2fbd1323105a7e91}} 
+T {\bfseries \+\_\+left}
+\item 
+\mbox{\Hypertarget{class_frustum_afd27e7f727fbdc805046ce343787118c}\label{class_frustum_afd27e7f727fbdc805046ce343787118c}} 
+T {\bfseries \+\_\+right}
+\item 
+\mbox{\Hypertarget{class_frustum_a092976b1717151ca3dfcb281fa608610}\label{class_frustum_a092976b1717151ca3dfcb281fa608610}} 
+T {\bfseries \+\_\+top}
+\item 
+\mbox{\Hypertarget{class_frustum_a639fd927e72df52f6023e296b59c295a}\label{class_frustum_a639fd927e72df52f6023e296b59c295a}} 
+T {\bfseries \+\_\+bottom}
+\item 
+\mbox{\Hypertarget{class_frustum_ade7092fa9e9db109bb302cb294bbd6e5}\label{class_frustum_ade7092fa9e9db109bb302cb294bbd6e5}} 
+bool {\bfseries \+\_\+orthographic}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Imath\+Forward.\+h\item 
+Imath\+Frustum.\+h\end{DoxyCompactItemize}
