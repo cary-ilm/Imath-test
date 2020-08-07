@@ -39,8 +39,13 @@ release = '3.0'
 extensions = [ "breathe" ]
 
 # Breathe Configuration
-breathe_projects = { "Imath": "doxyxml/" }
-breathe_default_project = "Imath"
+breathe_projects = { "imath": "doxyxml/" }
+breathe_default_project = "imath"
+breathe_domain_by_extension = {'h': 'cpp'}
+primary_domain = 'cpp'
+highlight_language = 'cpp'
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
