@@ -14,6 +14,12 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+# hack for readthedocs to cause it to run doxygen first
+# https://github.com/rtfd/readthedocs.org/issues/388
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if on_rtd:
+  from subprocess import call 
+  call('doxygen')
 
 # -- Project information -----------------------------------------------------
 
@@ -33,6 +39,7 @@ release = '3.0'
 extensions = [ "breathe" ]
 
 # Breathe Configuration
+breathe_projects = { "Imath": "doxyxml/" }
 breathe_default_project = "Imath"
 
 # Add any paths that contain templates here, relative to this directory.
