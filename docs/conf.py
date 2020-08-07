@@ -23,7 +23,7 @@ if on_rtd:
 
 # -- Project information -----------------------------------------------------
 
-project = 'Imath'
+project = 'imath'
 copyright = '2020, Cary Phillips'
 author = 'Cary Phillips'
 
