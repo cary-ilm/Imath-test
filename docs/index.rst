@@ -8,14 +8,15 @@ Welcome to Imath-test documentation!
 
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
 
-:ref:`genindex`
-
-Classes
-=======
+   intro
+   
+.. toctree::
+   :caption: The Imath Classes
+   :maxdepth: 3
 
    box
    vec
    
-   
+:ref:`genindex`
+
