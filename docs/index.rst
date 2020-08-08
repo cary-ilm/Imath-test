@@ -12,17 +12,10 @@ Welcome to Imath-test documentation!
 
 :ref:`genindex`
 
-Docs
-====
+Classes
+=======
 
-.. doxygentypedef:: Box3f
-
-.. doxygenclass:: Box
-   :members:
-
-.. doxygentypedef:: V3f
-
-.. doxygenclass:: Vec3
-   :undoc-members:
-
+   box
+   vec
+   
    
